@@ -1,0 +1,461 @@
+"","Age","Attrition","BusinessTravel","DailyRate","Department","DistanceFromHome","Education","EducationField","EmployeeCount","EmployeeNumber","EnvironmentSatisfaction","Gender","HourlyRate","JobInvolvement","JobLevel","JobRole","JobSatisfaction","MaritalStatus","MonthlyIncome","MonthlyRate","NumCompaniesWorked","Over18","OverTime","PercentSalaryHike","PerformanceRating","RelationshipSatisfaction","StandardHours","StockOptionLevel","TotalWorkingYears","TrainingTimesLastYear","WorkLifeBalance","YearsAtCompany","YearsInCurrentRole","YearsSinceLastPromotion","YearsWithCurrManager"
+"1",32,"No","Travel_Rarely",529,"Research & Development",2,3,"Technical Degree",1,2038,4,"Male",78,3,1,"Research Scientist",1,"Single",2439,11288,1,"Y","No",14,3,4,80,0,4,4,3,4,2,1,2
+"2",30,"No","Travel_Rarely",1329,"Sales",29,4,"Life Sciences",1,1211,3,"Male",61,3,2,"Sales Executive",1,"Divorced",4115,13192,8,"Y","No",19,3,3,80,3,8,3,3,4,3,0,3
+"3",32,"No","Travel_Frequently",1316,"Research & Development",2,2,"Life Sciences",1,1235,4,"Female",38,3,2,"Research Scientist",3,"Single",4998,2338,4,"Y","Yes",14,3,4,80,0,10,2,3,8,7,0,7
+"4",37,"No","Travel_Rarely",482,"Research & Development",3,3,"Other",1,689,3,"Male",36,3,3,"Manufacturing Director",3,"Married",9434,9606,1,"Y","No",15,3,3,80,1,10,2,3,10,7,7,8
+"5",36,"No","Travel_Rarely",311,"Research & Development",7,3,"Life Sciences",1,1659,1,"Male",77,3,1,"Laboratory Technician",2,"Single",2013,10950,2,"Y","No",11,3,3,80,0,15,4,3,4,3,1,3
+"6",23,"No","Travel_Rarely",650,"Research & Development",9,1,"Medical",1,758,2,"Male",37,3,1,"Laboratory Technician",1,"Married",2500,4344,1,"Y","No",14,3,4,80,1,5,2,4,4,3,0,2
+"7",36,"No","Non-Travel",1434,"Sales",8,4,"Life Sciences",1,789,1,"Male",76,2,3,"Sales Executive",1,"Single",7587,14229,1,"Y","No",15,3,2,80,0,10,1,3,10,7,0,9
+"8",46,"No","Travel_Frequently",1211,"Sales",5,4,"Marketing",1,62,1,"Male",98,3,2,"Sales Executive",4,"Single",5772,20445,4,"Y","Yes",21,4,3,80,0,14,4,3,9,6,0,8
+"9",35,"No","Non-Travel",1180,"Research & Development",2,2,"Medical",1,1804,2,"Male",90,3,2,"Manufacturing Director",4,"Divorced",5762,24442,2,"Y","No",14,3,3,80,1,15,6,3,7,7,1,7
+"10",30,"No","Travel_Rarely",1240,"Human Resources",9,3,"Human Resources",1,184,3,"Male",48,3,2,"Human Resources",4,"Married",6347,13982,0,"Y","Yes",19,3,4,80,0,12,2,1,11,9,4,7
+"11",31,"Yes","Travel_Rarely",359,"Human Resources",18,5,"Human Resources",1,1842,4,"Male",89,4,1,"Human Resources",1,"Married",2956,21495,0,"Y","No",17,3,3,80,0,2,4,3,1,0,0,0
+"12",28,"No","Travel_Rarely",440,"Research & Development",21,3,"Medical",1,221,3,"Male",42,3,1,"Research Scientist",4,"Married",2713,6672,1,"Y","No",11,3,3,80,1,5,2,1,5,2,0,2
+"13",41,"Yes","Travel_Rarely",1356,"Sales",20,2,"Marketing",1,248,2,"Female",70,3,1,"Sales Representative",2,"Single",3140,21728,1,"Y","Yes",22,4,4,80,0,4,5,2,4,3,0,2
+"14",24,"No","Travel_Rarely",1371,"Sales",10,4,"Marketing",1,507,4,"Female",77,3,2,"Sales Executive",3,"Divorced",4260,5915,1,"Y","Yes",12,3,4,80,1,5,2,4,5,2,0,3
+"15",54,"No","Travel_Rarely",431,"Research & Development",7,4,"Medical",1,1830,4,"Female",68,3,2,"Research Scientist",4,"Married",6854,15696,4,"Y","No",15,3,2,80,1,14,2,2,7,1,1,7
+"16",46,"Yes","Travel_Rarely",377,"Sales",9,3,"Marketing",1,1457,1,"Male",52,3,3,"Sales Executive",4,"Divorced",10096,15986,4,"Y","No",11,3,1,80,1,28,1,4,7,7,4,3
+"17",28,"Yes","Travel_Rarely",103,"Research & Development",24,3,"Life Sciences",1,19,3,"Male",50,2,1,"Laboratory Technician",3,"Single",2028,12947,5,"Y","Yes",14,3,2,80,0,6,4,3,4,2,0,3
+"18",38,"No","Travel_Rarely",437,"Sales",16,3,"Life Sciences",1,1583,2,"Female",90,3,2,"Sales Executive",2,"Single",4198,16379,2,"Y","No",12,3,2,80,0,8,5,4,3,2,1,2
+"19",55,"No","Travel_Rarely",1117,"Sales",18,5,"Life Sciences",1,597,1,"Female",83,3,4,"Manager",2,"Single",16835,9873,3,"Y","No",23,4,4,80,0,37,2,3,10,9,7,7
+"20",31,"No","Travel_Rarely",1332,"Research & Development",11,2,"Medical",1,1251,3,"Male",80,3,2,"Healthcare Representative",1,"Married",6833,17089,1,"Y","Yes",12,3,4,80,0,6,2,2,6,5,0,1
+"21",32,"No","Travel_Rarely",906,"Sales",7,3,"Life Sciences",1,420,4,"Male",91,2,2,"Sales Executive",3,"Married",5484,16985,1,"Y","No",14,3,3,80,1,13,3,2,13,8,4,8
+"22",36,"No","Travel_Rarely",132,"Research & Development",6,3,"Life Sciences",1,97,2,"Female",55,4,1,"Laboratory Technician",4,"Married",3038,22002,3,"Y","No",12,3,2,80,0,5,3,3,1,0,0,0
+"23",29,"No","Travel_Frequently",490,"Research & Development",10,3,"Life Sciences",1,1143,4,"Female",61,3,1,"Research Scientist",2,"Divorced",3291,17940,0,"Y","No",14,3,4,80,2,8,2,2,7,5,1,1
+"24",41,"No","Travel_Rarely",896,"Sales",6,3,"Life Sciences",1,298,4,"Female",75,3,3,"Manager",4,"Single",13591,14674,3,"Y","Yes",18,3,3,80,0,16,3,3,1,0,0,0
+"25",29,"No","Travel_Rarely",232,"Research & Development",19,3,"Technical Degree",1,611,4,"Male",34,3,2,"Manufacturing Director",4,"Divorced",4262,22645,4,"Y","No",12,3,2,80,2,8,2,4,3,2,1,2
+"26",37,"Yes","Travel_Rarely",625,"Sales",1,4,"Life Sciences",1,970,1,"Male",46,2,3,"Sales Executive",3,"Married",10609,14922,5,"Y","No",11,3,3,80,0,17,2,1,14,1,11,7
+"27",41,"No","Travel_Rarely",582,"Research & Development",28,4,"Life Sciences",1,2034,1,"Female",60,2,4,"Manufacturing Director",2,"Married",13570,5640,0,"Y","No",23,4,3,80,1,21,3,3,20,7,0,10
+"28",31,"No","Travel_Rarely",106,"Human Resources",2,3,"Human Resources",1,424,1,"Male",62,2,2,"Human Resources",1,"Married",6410,17822,3,"Y","No",12,3,4,80,0,9,1,3,2,2,1,0
+"29",35,"No","Travel_Frequently",944,"Sales",1,3,"Marketing",1,314,3,"Female",92,3,3,"Sales Executive",3,"Single",8789,9096,1,"Y","No",14,3,1,80,0,10,3,4,10,7,0,8
+"30",56,"No","Travel_Rarely",832,"Research & Development",9,3,"Medical",1,762,3,"Male",81,3,4,"Healthcare Representative",4,"Married",11103,20420,7,"Y","No",11,3,3,80,0,30,1,2,10,7,1,1
+"31",57,"No","Travel_Rarely",593,"Research & Development",1,4,"Medical",1,482,4,"Male",88,3,2,"Healthcare Representative",3,"Married",6755,2967,2,"Y","No",11,3,3,80,0,15,2,3,3,2,1,2
+"32",29,"Yes","Travel_Rarely",805,"Research & Development",1,2,"Life Sciences",1,816,2,"Female",36,2,1,"Laboratory Technician",1,"Married",2319,6689,1,"Y","Yes",11,3,4,80,1,1,1,3,1,0,0,0
+"33",34,"No","Travel_Rarely",665,"Research & Development",6,4,"Other",1,138,1,"Female",41,3,2,"Research Scientist",3,"Single",4809,12482,1,"Y","No",14,3,3,80,0,16,3,3,16,13,2,10
+"34",54,"No","Travel_Rarely",155,"Research & Development",9,2,"Life Sciences",1,1969,1,"Female",67,3,2,"Research Scientist",3,"Married",2897,22474,3,"Y","No",11,3,3,80,2,9,6,2,4,3,2,3
+"35",40,"No","Travel_Frequently",791,"Research & Development",2,2,"Medical",1,807,3,"Female",38,4,2,"Healthcare Representative",2,"Married",4244,9931,1,"Y","No",24,4,4,80,1,8,2,3,8,7,3,7
+"36",42,"No","Non-Travel",926,"Research & Development",21,2,"Medical",1,270,3,"Female",36,3,2,"Manufacturing Director",3,"Divorced",5265,16439,2,"Y","No",16,3,2,80,1,11,5,3,5,3,0,2
+"37",26,"No","Travel_Rarely",583,"Research & Development",4,2,"Life Sciences",1,1275,3,"Male",53,3,1,"Research Scientist",4,"Single",2875,9973,1,"Y","Yes",20,4,2,80,0,8,2,2,8,5,2,2
+"38",28,"Yes","Travel_Frequently",289,"Research & Development",2,2,"Medical",1,1504,3,"Male",38,2,1,"Laboratory Technician",1,"Single",2561,5355,7,"Y","No",11,3,3,80,0,8,2,2,0,0,0,0
+"39",59,"No","Non-Travel",1420,"Human Resources",2,4,"Human Resources",1,140,3,"Female",32,2,5,"Manager",4,"Married",18844,21922,9,"Y","No",21,4,4,80,1,30,3,3,3,2,2,2
+"40",26,"Yes","Travel_Rarely",950,"Sales",4,4,"Marketing",1,401,4,"Male",48,2,2,"Sales Executive",4,"Single",5828,8450,1,"Y","Yes",12,3,2,80,0,8,0,3,8,7,7,4
+"41",30,"No","Travel_Rarely",125,"Research & Development",9,2,"Medical",1,41,4,"Male",83,2,1,"Laboratory Technician",3,"Single",2206,16117,1,"Y","No",13,3,1,80,0,10,5,3,10,0,1,8
+"42",49,"No","Travel_Rarely",722,"Research & Development",25,4,"Life Sciences",1,1617,3,"Female",84,3,1,"Laboratory Technician",1,"Married",3211,22102,1,"Y","No",14,3,4,80,1,10,3,2,9,6,1,4
+"43",40,"No","Non-Travel",1151,"Research & Development",9,5,"Life Sciences",1,287,4,"Male",63,2,2,"Healthcare Representative",4,"Married",4876,14242,9,"Y","No",14,3,4,80,1,5,5,1,3,2,0,2
+"44",36,"No","Travel_Rarely",172,"Research & Development",4,4,"Life Sciences",1,1435,1,"Male",37,2,2,"Laboratory Technician",4,"Single",5810,22604,1,"Y","No",16,3,3,80,0,10,2,2,10,4,1,8
+"45",27,"No","Travel_Rarely",618,"Research & Development",4,3,"Life Sciences",1,933,2,"Female",76,3,1,"Research Scientist",3,"Single",2318,17808,1,"Y","No",19,3,3,80,0,1,2,3,1,1,0,0
+"46",29,"No","Travel_Rarely",1252,"Research & Development",23,2,"Life Sciences",1,824,3,"Male",81,4,1,"Research Scientist",3,"Married",2700,23779,1,"Y","No",24,4,3,80,1,10,3,3,10,7,0,7
+"47",29,"Yes","Travel_Rarely",341,"Sales",1,3,"Medical",1,896,2,"Female",48,2,1,"Sales Representative",3,"Divorced",2800,23522,6,"Y","Yes",19,3,3,80,3,5,3,3,3,2,0,2
+"48",46,"No","Travel_Rarely",1450,"Research & Development",15,2,"Life Sciences",1,1217,4,"Male",52,3,5,"Research Director",2,"Married",19081,10849,5,"Y","No",11,3,1,80,1,25,2,3,4,2,0,3
+"49",28,"Yes","Travel_Rarely",1157,"Research & Development",2,4,"Medical",1,440,1,"Male",84,1,1,"Research Scientist",4,"Married",3464,24737,5,"Y","Yes",13,3,4,80,0,5,4,2,3,2,2,2
+"50",30,"No","Travel_Rarely",570,"Sales",5,3,"Marketing",1,456,4,"Female",30,2,2,"Sales Executive",3,"Divorced",6118,5431,1,"Y","No",13,3,3,80,3,10,2,3,10,9,1,2
+"51",36,"No","Travel_Frequently",1195,"Research & Development",11,3,"Life Sciences",1,85,2,"Male",95,2,2,"Manufacturing Director",2,"Single",6499,22656,1,"Y","No",13,3,3,80,0,6,3,3,6,5,0,3
+"52",40,"No","Travel_Rarely",759,"Sales",2,2,"Marketing",1,516,4,"Female",46,3,2,"Sales Executive",2,"Divorced",5715,22553,7,"Y","No",12,3,3,80,2,8,5,3,5,4,1,3
+"53",29,"No","Travel_Rarely",153,"Research & Development",15,2,"Life Sciences",1,15,4,"Female",49,2,2,"Laboratory Technician",3,"Single",4193,12682,0,"Y","Yes",12,3,4,80,0,10,3,3,9,5,0,8
+"54",27,"No","Travel_Rarely",1220,"Research & Development",5,3,"Life Sciences",1,434,3,"Female",85,3,1,"Research Scientist",2,"Single",2478,20938,1,"Y","Yes",12,3,2,80,0,4,2,2,4,3,1,2
+"55",35,"Yes","Travel_Rarely",622,"Research & Development",14,4,"Other",1,1010,3,"Male",39,2,1,"Laboratory Technician",2,"Divorced",3743,10074,1,"Y","Yes",24,4,4,80,1,5,2,1,4,2,0,2
+"56",41,"No","Non-Travel",552,"Human Resources",4,3,"Human Resources",1,1722,3,"Male",60,1,2,"Human Resources",2,"Married",6430,20794,6,"Y","No",19,3,2,80,1,10,4,3,3,2,1,2
+"57",38,"No","Travel_Rarely",168,"Research & Development",1,3,"Life Sciences",1,743,3,"Female",81,3,3,"Manufacturing Director",3,"Single",7861,15397,4,"Y","Yes",14,3,4,80,0,10,4,4,1,0,0,0
+"58",27,"No","Travel_Rarely",1240,"Research & Development",2,4,"Life Sciences",1,54,4,"Female",33,3,1,"Laboratory Technician",1,"Divorced",2341,19715,1,"Y","No",13,3,4,80,1,1,6,3,1,0,0,0
+"59",42,"No","Travel_Rarely",855,"Research & Development",12,3,"Medical",1,1768,2,"Male",57,3,1,"Laboratory Technician",2,"Divorced",2766,8952,8,"Y","No",22,4,2,80,3,7,6,2,5,3,0,4
+"60",60,"No","Travel_Frequently",1499,"Sales",28,3,"Marketing",1,573,3,"Female",80,2,3,"Sales Executive",1,"Married",10266,2845,4,"Y","No",19,3,4,80,0,22,5,4,18,13,13,11
+"61",45,"No","Travel_Rarely",252,"Research & Development",2,3,"Life Sciences",1,834,2,"Female",95,2,1,"Research Scientist",3,"Single",2274,6153,1,"Y","No",14,3,4,80,0,1,3,3,1,0,0,0
+"62",24,"Yes","Travel_Frequently",1287,"Research & Development",7,3,"Life Sciences",1,647,1,"Female",55,3,1,"Laboratory Technician",3,"Married",2886,14168,1,"Y","Yes",16,3,4,80,1,6,4,3,6,3,1,2
+"63",40,"No","Travel_Rarely",1342,"Sales",9,2,"Medical",1,1548,1,"Male",47,3,2,"Sales Executive",1,"Married",5473,19345,0,"Y","No",12,3,4,80,0,9,5,4,8,4,7,1
+"64",39,"Yes","Travel_Rarely",895,"Sales",5,3,"Technical Degree",1,42,4,"Male",56,3,2,"Sales Representative",4,"Married",2086,3335,3,"Y","No",14,3,3,80,1,19,6,4,1,0,0,0
+"65",48,"No","Travel_Rarely",277,"Research & Development",6,3,"Life Sciences",1,1022,1,"Male",97,2,2,"Healthcare Representative",3,"Single",4240,13119,2,"Y","No",13,3,4,80,0,19,0,3,2,2,2,2
+"66",35,"No","Travel_Rarely",528,"Human Resources",8,4,"Technical Degree",1,1164,3,"Male",100,3,1,"Human Resources",3,"Single",4323,7108,1,"Y","No",17,3,2,80,0,6,2,1,5,4,1,4
+"67",53,"No","Travel_Rarely",1436,"Sales",6,2,"Marketing",1,205,2,"Male",34,3,2,"Sales Representative",3,"Married",2306,16047,2,"Y","Yes",20,4,4,80,1,13,3,1,7,7,4,5
+"68",47,"No","Travel_Rarely",571,"Sales",14,3,"Medical",1,1503,3,"Female",78,3,2,"Sales Executive",3,"Married",4591,24200,3,"Y","Yes",17,3,3,80,1,11,4,2,5,4,1,2
+"69",36,"No","Travel_Rarely",430,"Research & Development",2,4,"Other",1,1847,4,"Female",73,3,2,"Research Scientist",2,"Married",6962,19573,4,"Y","Yes",22,4,4,80,1,15,2,3,1,0,0,0
+"70",42,"Yes","Travel_Frequently",481,"Sales",12,3,"Life Sciences",1,1167,3,"Male",44,3,4,"Sales Executive",1,"Single",13758,2447,0,"Y","Yes",12,3,2,80,0,22,2,2,21,9,13,14
+"71",39,"No","Travel_Frequently",443,"Research & Development",8,1,"Life Sciences",1,602,3,"Female",48,3,1,"Laboratory Technician",3,"Married",3755,17872,1,"Y","No",11,3,1,80,1,8,3,3,8,3,0,7
+"72",34,"No","Travel_Rarely",419,"Research & Development",7,4,"Life Sciences",1,28,1,"Female",53,3,3,"Research Director",2,"Single",11994,21293,0,"Y","No",11,3,3,80,0,13,4,3,12,6,2,11
+"73",36,"Yes","Travel_Rarely",318,"Research & Development",9,3,"Medical",1,90,4,"Male",79,2,1,"Research Scientist",3,"Married",3388,21777,0,"Y","Yes",17,3,1,80,1,2,0,2,1,0,0,0
+"74",24,"Yes","Travel_Rarely",1448,"Sales",1,1,"Technical Degree",1,554,1,"Female",62,3,1,"Sales Representative",2,"Single",3202,21972,1,"Y","Yes",16,3,2,80,0,6,4,3,5,3,1,4
+"75",45,"No","Travel_Rarely",1015,"Research & Development",5,5,"Medical",1,1611,3,"Female",50,1,2,"Laboratory Technician",1,"Single",5769,23447,1,"Y","Yes",14,3,1,80,0,10,3,3,10,7,1,4
+"76",31,"No","Travel_Rarely",616,"Research & Development",12,3,"Medical",1,961,4,"Female",41,3,2,"Healthcare Representative",4,"Married",5855,17369,0,"Y","Yes",11,3,3,80,2,10,2,1,9,7,8,5
+"77",24,"No","Non-Travel",830,"Sales",13,2,"Life Sciences",1,1495,4,"Female",78,3,1,"Sales Representative",2,"Married",2033,7103,1,"Y","No",13,3,3,80,1,1,2,3,1,0,0,0
+"78",53,"No","Travel_Frequently",124,"Sales",2,3,"Marketing",1,1050,3,"Female",38,2,3,"Sales Executive",2,"Married",7525,23537,2,"Y","No",12,3,1,80,1,30,2,3,15,7,6,12
+"79",37,"No","Non-Travel",728,"Research & Development",1,4,"Medical",1,380,1,"Female",80,3,3,"Research Director",4,"Divorced",13603,11677,2,"Y","Yes",18,3,1,80,2,15,2,3,5,2,0,2
+"80",27,"No","Travel_Rarely",1055,"Research & Development",2,4,"Life Sciences",1,1027,1,"Female",47,3,2,"Manufacturing Director",4,"Married",4227,4658,0,"Y","No",18,3,2,80,1,4,2,3,3,2,2,2
+"81",28,"Yes","Travel_Frequently",1009,"Research & Development",1,3,"Medical",1,1111,1,"Male",45,2,1,"Laboratory Technician",2,"Divorced",2596,7160,1,"Y","No",15,3,1,80,2,1,2,3,1,0,0,0
+"82",30,"No","Travel_Rarely",1138,"Research & Development",6,3,"Technical Degree",1,1311,1,"Female",48,2,2,"Laboratory Technician",4,"Married",4627,23631,0,"Y","No",12,3,1,80,1,10,6,3,9,2,6,7
+"83",20,"No","Travel_Rarely",727,"Sales",9,1,"Life Sciences",1,1680,4,"Male",54,3,1,"Sales Representative",1,"Single",2728,21082,1,"Y","No",11,3,1,80,0,2,3,3,2,2,0,2
+"84",30,"No","Non-Travel",1400,"Research & Development",3,3,"Life Sciences",1,562,3,"Male",53,3,1,"Laboratory Technician",4,"Married",2097,16734,4,"Y","No",15,3,3,80,1,9,3,1,5,3,1,4
+"85",46,"No","Travel_Rarely",1009,"Research & Development",2,3,"Life Sciences",1,575,1,"Male",51,3,4,"Research Director",3,"Married",17861,2288,6,"Y","No",13,3,3,80,0,26,2,1,3,2,0,1
+"86",36,"No","Travel_Rarely",329,"Research & Development",2,3,"Life Sciences",1,501,4,"Female",96,3,1,"Research Scientist",3,"Married",2543,11868,4,"Y","No",13,3,2,80,1,6,3,3,2,2,2,2
+"87",44,"No","Travel_Rarely",136,"Research & Development",28,3,"Life Sciences",1,1523,4,"Male",32,3,4,"Research Director",1,"Married",16328,22074,3,"Y","No",13,3,3,80,1,24,1,4,20,6,14,17
+"88",31,"Yes","Travel_Rarely",202,"Research & Development",8,3,"Life Sciences",1,1433,1,"Female",34,2,1,"Research Scientist",2,"Single",1261,22262,1,"Y","No",12,3,3,80,0,1,3,4,1,0,0,0
+"89",40,"No","Travel_Rarely",1398,"Sales",2,4,"Life Sciences",1,558,3,"Female",79,3,5,"Manager",3,"Married",18041,13022,0,"Y","No",14,3,4,80,0,21,2,3,20,15,1,12
+"90",36,"No","Travel_Rarely",852,"Research & Development",5,4,"Life Sciences",1,51,2,"Female",82,2,1,"Research Scientist",1,"Married",3419,13072,9,"Y","Yes",14,3,4,80,1,6,3,4,1,1,0,0
+"91",29,"No","Travel_Rarely",1086,"Research & Development",7,1,"Medical",1,912,1,"Female",62,2,1,"Laboratory Technician",4,"Divorced",2532,6054,6,"Y","No",14,3,3,80,3,8,5,3,4,3,0,3
+"92",38,"No","Travel_Frequently",1391,"Research & Development",10,1,"Medical",1,1006,3,"Male",66,3,1,"Research Scientist",3,"Married",2684,12127,0,"Y","No",17,3,2,80,1,3,0,2,2,1,0,2
+"93",31,"No","Travel_Rarely",655,"Research & Development",7,4,"Life Sciences",1,76,4,"Male",48,3,2,"Laboratory Technician",4,"Divorced",5915,9528,3,"Y","No",22,4,4,80,1,10,3,2,7,7,1,7
+"94",40,"No","Travel_Frequently",720,"Research & Development",16,4,"Medical",1,832,1,"Male",51,2,2,"Laboratory Technician",3,"Single",5094,11983,6,"Y","No",14,3,4,80,0,10,6,3,1,0,0,0
+"95",45,"No","Non-Travel",589,"Sales",2,4,"Life Sciences",1,1845,3,"Female",67,3,2,"Sales Executive",3,"Married",5154,19665,4,"Y","No",22,4,2,80,2,10,3,4,8,7,5,7
+"96",35,"No","Travel_Rarely",1490,"Research & Development",11,4,"Medical",1,2003,4,"Male",43,3,1,"Laboratory Technician",3,"Married",2660,20232,7,"Y","Yes",11,3,3,80,1,5,3,3,2,2,2,2
+"97",42,"No","Travel_Rarely",647,"Sales",4,4,"Marketing",1,1171,2,"Male",45,3,2,"Sales Executive",1,"Single",5155,2253,7,"Y","No",13,3,4,80,0,9,3,4,6,4,1,5
+"98",24,"No","Travel_Frequently",897,"Human Resources",10,3,"Medical",1,1746,1,"Male",59,3,1,"Human Resources",4,"Married",2145,2097,0,"Y","No",14,3,4,80,1,3,2,3,2,2,2,1
+"99",44,"No","Travel_Rarely",1117,"Research & Development",2,1,"Life Sciences",1,1246,1,"Female",72,4,1,"Research Scientist",4,"Married",2011,19982,1,"Y","No",13,3,4,80,1,10,5,3,10,5,7,7
+"100",29,"No","Travel_Rarely",1378,"Research & Development",13,2,"Other",1,2053,4,"Male",46,2,2,"Laboratory Technician",2,"Married",4025,23679,4,"Y","Yes",13,3,1,80,1,10,2,3,4,3,0,3
+"101",26,"No","Travel_Rarely",1349,"Research & Development",23,3,"Life Sciences",1,560,1,"Female",90,3,1,"Research Scientist",4,"Divorced",2886,3032,1,"Y","No",22,4,2,80,2,3,3,1,3,2,0,2
+"102",56,"Yes","Travel_Rarely",1162,"Research & Development",24,2,"Life Sciences",1,1907,1,"Male",97,3,1,"Laboratory Technician",4,"Single",2587,10261,1,"Y","No",16,3,4,80,0,5,3,3,4,2,1,0
+"103",31,"Yes","Travel_Frequently",1060,"Sales",1,3,"Life Sciences",1,1331,4,"Female",54,3,1,"Sales Representative",2,"Single",2302,8319,1,"Y","Yes",11,3,1,80,0,3,2,4,3,2,2,2
+"104",33,"No","Travel_Rarely",1216,"Sales",8,4,"Marketing",1,677,3,"Male",39,3,2,"Sales Executive",3,"Divorced",7104,20431,0,"Y","No",12,3,4,80,0,6,3,3,5,0,1,2
+"105",47,"No","Travel_Rarely",207,"Research & Development",9,4,"Life Sciences",1,1856,2,"Female",64,3,1,"Laboratory Technician",3,"Single",2105,5411,4,"Y","No",12,3,3,80,0,7,2,3,2,2,2,0
+"106",42,"No","Travel_Rarely",1396,"Research & Development",6,3,"Medical",1,1911,3,"Male",83,3,3,"Research Director",1,"Married",13348,14842,9,"Y","No",13,3,2,80,1,18,3,4,13,7,5,7
+"107",40,"No","Travel_Rarely",630,"Sales",4,4,"Marketing",1,215,3,"Male",67,2,3,"Sales Executive",4,"Married",10855,8552,7,"Y","No",11,3,1,80,1,15,2,2,12,11,2,11
+"108",58,"No","Travel_Rarely",1055,"Research & Development",1,3,"Medical",1,1423,4,"Female",76,3,5,"Research Director",1,"Married",19701,22456,3,"Y","Yes",21,4,3,80,1,32,3,3,9,8,1,5
+"109",50,"No","Travel_Rarely",1207,"Research & Development",28,1,"Medical",1,716,4,"Male",74,4,1,"Laboratory Technician",3,"Married",3221,3297,1,"Y","Yes",11,3,3,80,3,20,3,3,20,8,3,8
+"110",27,"No","Travel_Rarely",1377,"Sales",2,3,"Life Sciences",1,437,4,"Male",74,3,2,"Sales Executive",3,"Single",4478,5242,1,"Y","Yes",11,3,1,80,0,5,3,3,5,4,0,4
+"111",30,"Yes","Travel_Frequently",600,"Human Resources",8,3,"Human Resources",1,1747,3,"Female",66,2,1,"Human Resources",4,"Divorced",2180,9732,6,"Y","No",11,3,3,80,1,6,0,2,4,2,1,2
+"112",38,"No","Travel_Rarely",1495,"Research & Development",4,2,"Medical",1,1687,4,"Female",87,3,1,"Laboratory Technician",3,"Married",3306,26176,7,"Y","No",19,3,4,80,1,7,5,2,0,0,0,0
+"113",26,"No","Travel_Rarely",1443,"Sales",23,3,"Marketing",1,72,3,"Female",47,2,2,"Sales Executive",4,"Married",4157,21436,7,"Y","Yes",19,3,3,80,1,5,2,2,2,2,0,0
+"114",31,"No","Travel_Frequently",1327,"Research & Development",3,4,"Medical",1,337,2,"Male",73,3,3,"Research Director",3,"Divorced",13675,13523,9,"Y","No",12,3,1,80,1,9,3,3,2,2,2,2
+"115",44,"No","Non-Travel",981,"Research & Development",5,3,"Life Sciences",1,1471,3,"Male",90,2,1,"Laboratory Technician",3,"Single",3162,7973,3,"Y","No",14,3,4,80,0,7,5,3,5,2,0,3
+"116",48,"No","Travel_Frequently",365,"Research & Development",4,5,"Medical",1,1644,3,"Male",89,2,4,"Manager",4,"Married",15202,5602,2,"Y","No",25,4,2,80,1,23,3,3,2,2,2,2
+"117",29,"No","Travel_Rarely",657,"Research & Development",27,3,"Medical",1,793,2,"Female",66,3,2,"Healthcare Representative",3,"Married",4335,25549,4,"Y","No",12,3,1,80,1,11,3,2,8,7,1,1
+"118",44,"No","Travel_Rarely",1037,"Research & Development",1,3,"Medical",1,2020,2,"Male",42,3,1,"Research Scientist",4,"Single",2436,13422,6,"Y","Yes",12,3,3,80,0,6,2,3,4,3,1,2
+"119",40,"No","Travel_Frequently",902,"Research & Development",26,2,"Medical",1,1180,3,"Female",92,2,2,"Research Scientist",4,"Married",4422,21203,3,"Y","Yes",13,3,4,80,1,16,3,1,1,1,0,0
+"120",31,"No","Travel_Rarely",1082,"Research & Development",1,4,"Medical",1,95,3,"Male",87,3,1,"Research Scientist",2,"Single",2501,18775,1,"Y","No",17,3,2,80,0,1,4,3,1,1,1,0
+"121",41,"No","Travel_Rarely",427,"Human Resources",10,4,"Human Resources",1,731,2,"Male",73,2,5,"Manager",4,"Divorced",19141,8861,3,"Y","No",15,3,2,80,3,23,2,2,21,6,12,6
+"122",32,"Yes","Non-Travel",1474,"Sales",11,4,"Other",1,631,4,"Male",60,4,2,"Sales Executive",3,"Married",4707,23914,8,"Y","No",12,3,4,80,0,6,2,3,4,2,1,2
+"123",55,"No","Travel_Rarely",1441,"Research & Development",22,3,"Technical Degree",1,1694,1,"Male",94,2,1,"Research Scientist",2,"Divorced",3537,23737,5,"Y","No",12,3,4,80,1,8,1,3,4,2,1,2
+"124",46,"No","Travel_Rarely",1003,"Research & Development",8,4,"Life Sciences",1,1080,4,"Female",74,2,2,"Research Scientist",1,"Divorced",4615,21029,8,"Y","Yes",23,4,1,80,3,19,2,3,16,13,1,7
+"125",37,"Yes","Travel_Rarely",370,"Research & Development",10,4,"Medical",1,1809,4,"Male",58,3,2,"Manufacturing Director",1,"Single",4213,4992,1,"Y","No",15,3,2,80,0,10,4,1,10,3,0,8
+"126",36,"No","Travel_Rarely",913,"Research & Development",9,2,"Medical",1,699,2,"Male",48,2,2,"Manufacturing Director",2,"Divorced",8847,13934,2,"Y","Yes",11,3,3,80,1,13,2,3,3,2,0,2
+"127",29,"Yes","Travel_Rarely",992,"Research & Development",1,3,"Technical Degree",1,300,3,"Male",85,3,1,"Research Scientist",3,"Single",2058,19757,0,"Y","No",14,3,4,80,0,7,1,2,6,2,1,5
+"128",37,"No","Non-Travel",142,"Sales",9,4,"Medical",1,626,1,"Male",69,3,3,"Sales Executive",2,"Divorced",8834,24666,1,"Y","No",13,3,4,80,1,9,6,3,9,5,7,7
+"129",52,"No","Travel_Rarely",699,"Research & Development",1,4,"Life Sciences",1,259,3,"Male",65,2,5,"Manager",3,"Married",19999,5678,0,"Y","No",14,3,1,80,1,34,5,3,33,18,11,9
+"130",21,"No","Travel_Rarely",1343,"Sales",22,1,"Technical Degree",1,669,3,"Male",49,3,1,"Sales Representative",3,"Single",3447,24444,1,"Y","No",11,3,3,80,0,3,2,3,3,2,1,2
+"131",38,"No","Travel_Rarely",130,"Sales",2,2,"Marketing",1,1125,4,"Male",32,3,3,"Sales Executive",2,"Single",7351,20619,7,"Y","No",16,3,3,80,0,10,2,3,1,0,0,0
+"132",38,"No","Travel_Rarely",1084,"Research & Development",29,3,"Technical Degree",1,273,4,"Male",54,3,2,"Manufacturing Director",4,"Married",6261,4185,3,"Y","No",18,3,1,80,1,9,3,1,7,7,1,7
+"133",40,"No","Travel_Rarely",896,"Research & Development",2,3,"Medical",1,1474,3,"Male",68,3,1,"Research Scientist",3,"Divorced",2345,8045,2,"Y","No",14,3,3,80,1,8,3,4,3,1,1,2
+"134",39,"No","Non-Travel",1485,"Research & Development",25,2,"Life Sciences",1,1397,3,"Male",71,3,3,"Healthcare Representative",3,"Married",10920,3449,3,"Y","No",21,4,2,80,1,13,2,3,6,4,0,5
+"135",29,"No","Travel_Rarely",718,"Research & Development",8,1,"Medical",1,1150,2,"Male",79,2,2,"Manufacturing Director",4,"Married",5056,17689,1,"Y","Yes",15,3,3,80,1,10,2,2,10,7,1,2
+"136",31,"No","Travel_Frequently",1125,"Research & Development",1,3,"Life Sciences",1,1956,4,"Male",48,1,2,"Research Scientist",1,"Married",5003,5771,1,"Y","No",21,4,2,80,0,10,6,3,10,8,8,7
+"137",35,"No","Non-Travel",727,"Research & Development",3,3,"Life Sciences",1,704,3,"Male",41,2,1,"Laboratory Technician",3,"Married",1281,16900,1,"Y","No",18,3,3,80,2,1,3,3,1,0,0,0
+"138",54,"No","Travel_Rarely",157,"Research & Development",10,3,"Medical",1,1980,3,"Female",77,3,2,"Manufacturing Director",1,"Single",4440,25198,6,"Y","Yes",19,3,4,80,0,9,3,3,5,2,1,4
+"139",42,"No","Travel_Rarely",300,"Research & Development",2,3,"Life Sciences",1,2031,1,"Male",56,3,5,"Manager",3,"Married",18880,17312,5,"Y","No",11,3,1,80,0,24,2,2,22,6,4,14
+"140",53,"No","Travel_Rarely",1223,"Research & Development",7,2,"Medical",1,1201,4,"Female",50,3,5,"Manager",3,"Divorced",18606,18640,3,"Y","No",18,3,2,80,1,26,6,3,7,7,4,7
+"141",37,"No","Travel_Rarely",446,"Research & Development",1,4,"Life Sciences",1,635,2,"Female",65,3,2,"Manufacturing Director",2,"Married",6447,15701,6,"Y","No",12,3,2,80,1,8,2,2,6,5,4,3
+"142",50,"No","Travel_Rarely",1099,"Research & Development",29,4,"Life Sciences",1,569,2,"Male",88,2,4,"Manager",3,"Married",17046,9314,0,"Y","No",15,3,2,80,1,28,2,3,27,10,15,7
+"143",38,"No","Travel_Rarely",330,"Research & Development",17,1,"Life Sciences",1,1088,3,"Female",65,2,3,"Healthcare Representative",3,"Married",8823,24608,0,"Y","No",18,3,1,80,1,20,4,2,19,9,1,9
+"144",49,"No","Non-Travel",1002,"Research & Development",18,4,"Life Sciences",1,275,4,"Male",92,3,2,"Manufacturing Director",4,"Divorced",6804,23793,1,"Y","Yes",15,3,1,80,2,7,0,3,7,7,1,7
+"145",41,"No","Travel_Rarely",642,"Research & Development",1,3,"Life Sciences",1,1999,4,"Male",76,3,1,"Research Scientist",4,"Married",2782,21412,3,"Y","No",22,4,1,80,1,12,3,3,5,3,1,0
+"146",32,"No","Travel_Rarely",548,"Research & Development",1,3,"Life Sciences",1,96,2,"Male",66,3,2,"Research Scientist",2,"Married",6220,7346,1,"Y","No",17,3,2,80,2,10,3,3,10,4,0,9
+"147",51,"No","Travel_Rarely",1169,"Research & Development",7,4,"Medical",1,211,2,"Male",34,2,2,"Manufacturing Director",3,"Married",6132,13983,2,"Y","No",17,3,3,80,0,10,2,3,1,0,0,0
+"148",43,"No","Travel_Frequently",775,"Sales",15,3,"Life Sciences",1,754,4,"Male",47,2,2,"Sales Executive",4,"Married",6804,23683,3,"Y","No",18,3,3,80,1,7,5,3,2,2,2,2
+"149",31,"No","Non-Travel",979,"Research & Development",1,4,"Medical",1,308,3,"Male",90,1,2,"Manufacturing Director",3,"Married",4345,4381,0,"Y","No",12,3,4,80,1,6,2,3,5,4,1,4
+"150",48,"No","Travel_Rarely",1355,"Research & Development",4,4,"Life Sciences",1,1024,3,"Male",78,2,3,"Healthcare Representative",3,"Single",10999,22245,7,"Y","No",14,3,2,80,0,27,3,3,15,11,4,8
+"151",35,"Yes","Travel_Rarely",303,"Sales",27,3,"Life Sciences",1,1797,3,"Male",84,3,2,"Sales Executive",4,"Single",5813,13492,1,"Y","Yes",18,3,4,80,0,10,2,3,10,7,7,7
+"152",37,"No","Travel_Rarely",1225,"Research & Development",10,2,"Life Sciences",1,715,4,"Male",80,4,1,"Research Scientist",4,"Single",4680,15232,3,"Y","No",17,3,1,80,0,4,2,3,1,0,0,0
+"153",31,"Yes","Travel_Rarely",249,"Sales",6,4,"Life Sciences",1,163,2,"Male",76,1,2,"Sales Executive",3,"Married",6172,20739,4,"Y","Yes",18,3,2,80,0,12,3,2,7,7,7,7
+"154",48,"No","Travel_Rarely",1108,"Research & Development",15,4,"Other",1,1576,3,"Female",65,3,1,"Research Scientist",1,"Married",2367,16530,8,"Y","No",12,3,4,80,1,10,3,2,8,2,7,6
+"155",50,"No","Travel_Frequently",1246,"Human Resources",3,3,"Medical",1,644,1,"Male",99,3,5,"Manager",2,"Married",18200,7999,1,"Y","No",11,3,3,80,1,32,2,3,32,5,10,7
+"156",37,"No","Travel_Rarely",1439,"Research & Development",4,1,"Life Sciences",1,1394,3,"Male",54,3,1,"Research Scientist",3,"Married",2996,5182,7,"Y","Yes",15,3,4,80,0,8,2,3,6,4,1,3
+"157",32,"No","Travel_Frequently",689,"Sales",9,2,"Medical",1,195,4,"Male",35,1,2,"Sales Executive",4,"Divorced",4668,22812,0,"Y","No",17,3,4,80,3,9,2,4,8,7,0,7
+"158",27,"No","Travel_Rarely",608,"Research & Development",1,2,"Life Sciences",1,725,3,"Female",68,3,3,"Manufacturing Director",1,"Married",7412,6009,1,"Y","No",11,3,4,80,0,9,3,3,9,7,0,7
+"159",32,"No","Travel_Rarely",634,"Research & Development",5,4,"Other",1,1607,2,"Female",35,4,1,"Research Scientist",4,"Married",3312,18783,3,"Y","No",17,3,4,80,2,6,3,3,3,2,0,2
+"160",33,"No","Travel_Rarely",654,"Research & Development",5,3,"Life Sciences",1,1099,4,"Male",34,2,3,"Healthcare Representative",4,"Divorced",7119,21214,4,"Y","No",15,3,3,80,1,9,2,3,3,2,1,2
+"161",36,"Yes","Travel_Rarely",1218,"Sales",9,4,"Life Sciences",1,27,3,"Male",82,2,1,"Sales Representative",1,"Single",3407,6986,7,"Y","No",23,4,2,80,0,10,4,3,5,3,0,3
+"162",24,"No","Non-Travel",1269,"Research & Development",4,1,"Life Sciences",1,888,1,"Male",46,2,1,"Laboratory Technician",4,"Married",3162,10778,0,"Y","No",17,3,4,80,0,6,2,2,5,2,3,4
+"163",26,"No","Travel_Rarely",390,"Research & Development",17,4,"Medical",1,1718,4,"Male",62,1,1,"Laboratory Technician",3,"Married",2305,6217,1,"Y","No",15,3,3,80,3,3,3,4,3,2,0,2
+"164",22,"Yes","Travel_Rarely",391,"Research & Development",7,1,"Life Sciences",1,1878,4,"Male",75,3,1,"Research Scientist",2,"Single",2472,26092,1,"Y","Yes",23,4,1,80,0,1,2,3,1,0,0,0
+"165",34,"No","Travel_Rarely",304,"Sales",2,3,"Other",1,786,4,"Male",60,3,2,"Sales Executive",4,"Single",6274,18686,1,"Y","No",22,4,3,80,0,6,5,3,6,5,1,4
+"166",54,"No","Travel_Rarely",397,"Human Resources",19,4,"Medical",1,698,3,"Male",88,3,3,"Human Resources",2,"Married",10725,6729,2,"Y","No",15,3,3,80,1,16,1,4,9,7,7,1
+"167",34,"No","Travel_Rarely",182,"Research & Development",1,4,"Life Sciences",1,797,2,"Female",72,4,1,"Research Scientist",4,"Single",3280,13551,2,"Y","No",16,3,3,80,0,10,2,3,4,2,1,3
+"168",38,"No","Travel_Rarely",702,"Sales",1,4,"Life Sciences",1,230,1,"Female",59,2,2,"Sales Executive",4,"Single",8686,12930,4,"Y","No",22,4,3,80,0,12,2,4,8,3,0,7
+"169",38,"No","Travel_Rarely",849,"Research & Development",25,2,"Life Sciences",1,421,1,"Female",81,2,3,"Research Director",2,"Married",12061,26707,3,"Y","No",17,3,3,80,1,19,2,3,10,8,0,1
+"170",35,"No","Travel_Rarely",1146,"Human Resources",26,4,"Life Sciences",1,2040,3,"Female",31,3,3,"Human Resources",4,"Single",8837,16642,1,"Y","Yes",16,3,3,80,0,9,2,3,9,0,1,7
+"171",23,"Yes","Travel_Rarely",1320,"Research & Development",8,1,"Medical",1,1684,4,"Male",93,2,1,"Laboratory Technician",3,"Single",3989,20586,1,"Y","Yes",11,3,1,80,0,5,2,3,5,4,1,2
+"172",46,"No","Non-Travel",849,"Sales",26,2,"Life Sciences",1,1801,2,"Male",98,2,2,"Sales Executive",2,"Single",7991,25166,8,"Y","No",15,3,3,80,0,6,3,3,2,2,2,2
+"173",44,"No","Travel_Rarely",661,"Research & Development",9,2,"Life Sciences",1,913,2,"Male",61,3,1,"Research Scientist",1,"Married",2559,7508,1,"Y","Yes",13,3,4,80,0,8,0,3,8,7,7,1
+"174",45,"No","Travel_Rarely",930,"Sales",9,3,"Marketing",1,864,4,"Male",74,3,3,"Sales Executive",1,"Divorced",10761,19239,4,"Y","Yes",12,3,3,80,1,18,2,3,5,4,0,2
+"175",35,"Yes","Travel_Frequently",130,"Research & Development",25,4,"Life Sciences",1,881,4,"Female",96,3,1,"Research Scientist",2,"Divorced",2022,16612,1,"Y","Yes",19,3,1,80,1,10,3,2,10,2,7,8
+"176",43,"No","Travel_Rarely",930,"Research & Development",6,3,"Medical",1,1402,1,"Female",73,2,2,"Research Scientist",3,"Single",4081,20003,1,"Y","Yes",14,3,1,80,0,20,3,1,20,7,1,8
+"177",52,"No","Travel_Rarely",621,"Sales",3,4,"Marketing",1,776,3,"Male",31,2,4,"Manager",1,"Married",16856,10084,1,"Y","No",11,3,1,80,0,34,3,4,34,6,1,16
+"178",29,"Yes","Travel_Rarely",428,"Sales",9,3,"Marketing",1,1752,2,"Female",52,1,1,"Sales Representative",2,"Single",2760,14630,1,"Y","No",13,3,3,80,0,2,3,3,2,2,2,2
+"179",27,"No","Non-Travel",210,"Sales",1,1,"Marketing",1,449,3,"Male",73,3,2,"Sales Executive",2,"Married",6349,22107,0,"Y","Yes",13,3,4,80,1,6,0,3,5,4,1,4
+"180",51,"Yes","Travel_Rarely",1323,"Research & Development",4,4,"Life Sciences",1,1081,1,"Male",34,3,1,"Research Scientist",3,"Married",2461,10332,9,"Y","Yes",12,3,3,80,3,18,2,4,10,0,2,7
+"181",39,"No","Travel_Rarely",1329,"Sales",4,4,"Life Sciences",1,182,4,"Female",47,2,2,"Sales Executive",3,"Married",5902,14590,4,"Y","No",14,3,3,80,1,17,1,4,15,11,5,9
+"182",55,"No","Travel_Rarely",836,"Research & Development",2,4,"Technical Degree",1,1873,2,"Male",98,2,1,"Research Scientist",4,"Married",2662,7975,8,"Y","No",20,4,2,80,1,19,2,4,5,2,0,4
+"183",33,"No","Travel_Frequently",1296,"Research & Development",6,3,"Life Sciences",1,692,3,"Male",30,3,2,"Healthcare Representative",4,"Divorced",7725,5335,3,"Y","No",23,4,3,80,1,15,2,1,13,11,4,7
+"184",44,"No","Travel_Rarely",1488,"Sales",1,5,"Marketing",1,68,2,"Female",75,3,2,"Sales Executive",1,"Divorced",5454,4009,5,"Y","Yes",21,4,3,80,1,9,2,2,4,3,1,3
+"185",51,"No","Travel_Frequently",541,"Sales",2,3,"Marketing",1,1391,2,"Male",52,3,3,"Sales Executive",2,"Married",10596,15395,2,"Y","No",11,3,2,80,0,14,5,3,4,2,3,2
+"186",38,"No","Travel_Rarely",1321,"Sales",1,4,"Life Sciences",1,1995,4,"Male",86,3,2,"Sales Executive",2,"Married",4440,7636,0,"Y","No",15,3,1,80,2,16,3,3,15,13,5,8
+"187",38,"No","Travel_Rarely",827,"Research & Development",1,4,"Life Sciences",1,724,2,"Female",33,4,2,"Healthcare Representative",4,"Single",7625,19383,0,"Y","No",13,3,3,80,0,10,4,2,9,7,1,8
+"188",59,"No","Travel_Frequently",1225,"Sales",1,1,"Life Sciences",1,91,1,"Female",57,2,2,"Sales Executive",3,"Single",5473,24668,7,"Y","No",11,3,4,80,0,20,2,2,4,3,1,3
+"189",33,"No","Travel_Frequently",1392,"Research & Development",3,4,"Life Sciences",1,5,4,"Female",56,3,1,"Research Scientist",3,"Married",2909,23159,1,"Y","Yes",11,3,3,80,0,8,3,3,8,7,3,0
+"190",26,"No","Travel_Rarely",841,"Research & Development",6,3,"Other",1,164,3,"Female",46,2,1,"Research Scientist",2,"Married",2368,23300,1,"Y","No",19,3,3,80,0,5,3,2,5,4,4,3
+"191",29,"Yes","Travel_Rarely",806,"Research & Development",7,3,"Technical Degree",1,1299,2,"Female",39,3,1,"Laboratory Technician",3,"Divorced",3339,17285,3,"Y","Yes",13,3,1,80,2,10,2,3,7,7,7,7
+"192",36,"No","Travel_Rarely",928,"Sales",1,2,"Life Sciences",1,857,2,"Male",56,3,2,"Sales Executive",4,"Married",6201,2823,1,"Y","Yes",14,3,4,80,1,18,1,2,18,14,4,11
+"193",35,"No","Travel_Rarely",1315,"Research & Development",22,3,"Life Sciences",1,381,2,"Female",71,4,3,"Manager",2,"Divorced",11996,19100,7,"Y","No",18,3,2,80,1,10,6,2,7,7,6,2
+"194",40,"No","Travel_Rarely",300,"Sales",26,3,"Marketing",1,1066,3,"Male",74,3,2,"Sales Executive",1,"Married",8396,22217,1,"Y","No",14,3,2,80,1,8,3,2,7,7,7,5
+"195",30,"No","Travel_Rarely",330,"Human Resources",1,3,"Life Sciences",1,1499,3,"Male",46,3,1,"Human Resources",3,"Divorced",2064,15428,0,"Y","No",21,4,1,80,1,6,3,4,5,3,1,3
+"196",58,"Yes","Travel_Rarely",147,"Research & Development",23,4,"Medical",1,165,4,"Female",94,3,3,"Healthcare Representative",4,"Married",10312,3465,1,"Y","No",12,3,4,80,1,40,3,2,40,10,15,6
+"197",41,"No","Travel_Rarely",263,"Research & Development",6,3,"Medical",1,957,4,"Male",59,3,1,"Laboratory Technician",1,"Single",4721,3119,2,"Y","Yes",13,3,3,80,0,20,3,3,18,13,2,17
+"198",33,"No","Travel_Rarely",586,"Sales",1,3,"Medical",1,855,1,"Male",48,4,2,"Sales Executive",1,"Divorced",4037,21816,1,"Y","No",22,4,1,80,1,9,5,3,9,8,0,8
+"199",23,"No","Travel_Rarely",977,"Research & Development",10,3,"Technical Degree",1,1592,4,"Male",45,4,1,"Research Scientist",3,"Married",2073,12826,2,"Y","No",16,3,4,80,1,4,2,3,2,2,2,2
+"200",29,"No","Travel_Rarely",598,"Research & Development",9,3,"Life Sciences",1,1558,3,"Male",91,4,1,"Research Scientist",3,"Married",2451,22376,6,"Y","No",18,3,1,80,2,5,2,2,1,0,0,0
+"201",36,"No","Travel_Rarely",1383,"Research & Development",10,3,"Life Sciences",1,1790,4,"Male",90,3,3,"Healthcare Representative",1,"Married",8321,25949,7,"Y","Yes",13,3,4,80,1,15,1,3,12,8,5,7
+"202",38,"No","Travel_Rarely",345,"Sales",10,2,"Life Sciences",1,2041,1,"Female",100,3,2,"Sales Executive",4,"Married",5343,5982,1,"Y","No",11,3,3,80,1,10,1,3,10,7,1,9
+"203",35,"No","Travel_Rarely",890,"Sales",2,3,"Marketing",1,49,4,"Female",97,3,1,"Sales Representative",4,"Married",2014,9687,1,"Y","No",13,3,1,80,0,2,3,3,2,2,2,2
+"204",41,"No","Non-Travel",247,"Research & Development",7,1,"Life Sciences",1,1035,2,"Female",55,1,5,"Research Director",3,"Divorced",19973,20284,1,"Y","No",22,4,2,80,2,21,3,3,21,16,5,10
+"205",50,"No","Travel_Rarely",316,"Sales",8,4,"Marketing",1,738,4,"Male",54,3,1,"Sales Representative",2,"Married",3875,9983,7,"Y","No",15,3,4,80,1,4,2,3,2,2,2,2
+"206",38,"No","Travel_Rarely",201,"Research & Development",10,3,"Medical",1,2015,2,"Female",99,1,3,"Research Director",3,"Married",13206,3376,3,"Y","No",12,3,1,80,1,20,3,3,18,16,1,11
+"207",45,"No","Non-Travel",1195,"Research & Development",2,2,"Medical",1,264,1,"Male",65,2,4,"Manager",4,"Married",16792,20462,9,"Y","No",23,4,4,80,1,22,1,3,20,8,11,8
+"208",45,"No","Travel_Rarely",1268,"Sales",4,2,"Life Sciences",1,240,3,"Female",30,3,2,"Sales Executive",1,"Divorced",5006,6319,4,"Y","Yes",11,3,1,80,1,9,3,4,5,4,0,3
+"209",37,"No","Travel_Rarely",367,"Research & Development",25,2,"Medical",1,1161,3,"Female",52,2,2,"Healthcare Representative",4,"Divorced",5731,17171,7,"Y","No",13,3,3,80,2,9,2,3,6,2,1,3
+"210",36,"No","Travel_Rarely",1041,"Human Resources",13,3,"Human Resources",1,829,3,"Male",36,3,1,"Human Resources",2,"Married",2143,25527,4,"Y","No",13,3,2,80,1,8,2,3,5,2,0,4
+"211",22,"No","Travel_Rarely",581,"Research & Development",1,2,"Life Sciences",1,2007,4,"Male",63,3,1,"Research Scientist",3,"Single",3375,17624,0,"Y","No",12,3,4,80,0,4,2,4,3,2,1,2
+"212",32,"No","Non-Travel",976,"Sales",26,4,"Marketing",1,333,3,"Male",100,3,2,"Sales Executive",4,"Married",4465,12069,0,"Y","No",18,3,1,80,0,4,2,3,3,2,2,2
+"213",34,"No","Travel_Rarely",1351,"Research & Development",1,4,"Life Sciences",1,1580,2,"Male",45,3,2,"Research Scientist",4,"Married",5484,13008,9,"Y","No",17,3,2,80,1,9,3,2,2,2,2,1
+"214",40,"No","Travel_Rarely",1194,"Research & Development",1,3,"Life Sciences",1,1822,3,"Female",52,3,2,"Healthcare Representative",4,"Divorced",6513,9060,4,"Y","No",17,3,4,80,1,12,3,3,5,3,0,3
+"215",30,"No","Travel_Rarely",231,"Sales",8,2,"Other",1,982,3,"Male",62,3,3,"Sales Executive",3,"Divorced",7264,9977,5,"Y","No",11,3,1,80,1,10,2,4,8,4,7,7
+"216",50,"No","Travel_Frequently",1115,"Research & Development",1,3,"Life Sciences",1,141,1,"Female",73,3,5,"Research Director",2,"Married",18172,9755,3,"Y","Yes",19,3,1,80,0,28,1,2,8,3,0,7
+"217",52,"No","Travel_Rarely",956,"Research & Development",6,2,"Technical Degree",1,630,4,"Male",78,3,2,"Research Scientist",1,"Divorced",5577,22087,3,"Y","Yes",12,3,2,80,2,18,3,3,10,9,6,9
+"218",47,"No","Travel_Rarely",249,"Sales",2,2,"Marketing",1,903,3,"Female",35,3,2,"Sales Executive",4,"Married",4537,17783,0,"Y","Yes",22,4,1,80,1,8,2,3,7,6,7,7
+"219",19,"Yes","Travel_Rarely",528,"Sales",22,1,"Marketing",1,167,4,"Male",50,3,1,"Sales Representative",3,"Single",1675,26820,1,"Y","Yes",19,3,4,80,0,0,2,2,0,0,0,0
+"220",42,"No","Travel_Rarely",265,"Sales",5,2,"Marketing",1,1029,4,"Male",90,3,5,"Manager",3,"Married",18303,7770,6,"Y","No",13,3,2,80,0,21,3,4,1,0,0,0
+"221",48,"No","Non-Travel",1262,"Research & Development",1,4,"Medical",1,1116,1,"Male",35,4,4,"Manager",4,"Single",16885,16154,2,"Y","No",22,4,3,80,0,27,3,2,5,4,2,1
+"222",22,"No","Travel_Rarely",1230,"Research & Development",1,2,"Life Sciences",1,872,4,"Male",33,2,2,"Manufacturing Director",4,"Married",4775,19146,6,"Y","No",22,4,1,80,2,4,2,1,2,2,2,2
+"223",43,"No","Travel_Frequently",313,"Research & Development",21,3,"Medical",1,525,4,"Male",61,3,1,"Laboratory Technician",4,"Married",2258,15238,7,"Y","No",20,4,1,80,1,8,1,3,3,2,1,2
+"224",32,"No","Non-Travel",1184,"Research & Development",1,3,"Life Sciences",1,951,3,"Female",70,2,1,"Laboratory Technician",2,"Married",2332,3974,6,"Y","No",20,4,3,80,0,5,3,3,3,0,0,2
+"225",29,"No","Travel_Frequently",461,"Research & Development",1,3,"Life Sciences",1,1753,4,"Male",70,4,2,"Healthcare Representative",3,"Single",6294,23060,8,"Y","Yes",12,3,4,80,0,10,5,4,3,2,0,2
+"226",27,"No","Travel_Rarely",1103,"Research & Development",14,3,"Life Sciences",1,1244,1,"Male",42,3,1,"Research Scientist",1,"Married",2235,14377,1,"Y","Yes",14,3,4,80,2,9,3,2,9,7,6,8
+"227",56,"No","Travel_Rarely",1369,"Research & Development",23,3,"Life Sciences",1,1373,4,"Male",68,3,4,"Manufacturing Director",2,"Married",13402,18235,4,"Y","Yes",12,3,1,80,1,33,0,3,19,16,15,9
+"228",49,"No","Travel_Rarely",809,"Research & Development",1,3,"Life Sciences",1,1677,3,"Male",36,3,4,"Manager",3,"Single",15379,22384,4,"Y","No",14,3,1,80,0,23,2,3,8,7,0,0
+"229",26,"No","Travel_Rarely",157,"Research & Development",1,3,"Medical",1,1952,3,"Male",95,3,1,"Laboratory Technician",1,"Single",2867,20006,0,"Y","No",13,3,4,80,0,8,6,2,7,7,7,6
+"230",55,"No","Travel_Rarely",452,"Research & Development",1,3,"Medical",1,374,4,"Male",81,3,5,"Manager",1,"Single",19045,18938,0,"Y","Yes",14,3,3,80,0,37,2,3,36,10,4,13
+"231",31,"Yes","Travel_Frequently",874,"Research & Development",15,3,"Medical",1,1160,3,"Male",72,3,1,"Laboratory Technician",3,"Married",2610,6233,1,"Y","No",12,3,3,80,1,2,5,2,2,2,2,2
+"232",42,"No","Travel_Rarely",544,"Human Resources",2,1,"Technical Degree",1,470,3,"Male",52,3,1,"Human Resources",3,"Divorced",2696,24017,0,"Y","Yes",11,3,3,80,1,4,5,3,3,2,1,0
+"233",19,"Yes","Travel_Rarely",303,"Research & Development",2,3,"Life Sciences",1,243,2,"Male",47,2,1,"Laboratory Technician",4,"Single",1102,9241,1,"Y","No",22,4,3,80,0,1,3,2,1,0,1,0
+"234",34,"No","Travel_Frequently",426,"Research & Development",10,4,"Life Sciences",1,1615,3,"Male",42,4,2,"Manufacturing Director",4,"Divorced",4724,17000,1,"Y","No",13,3,1,80,1,9,3,3,9,7,7,2
+"235",44,"No","Travel_Rarely",625,"Research & Development",4,3,"Medical",1,852,4,"Male",50,3,2,"Healthcare Representative",2,"Single",5933,5197,9,"Y","No",12,3,4,80,0,10,2,2,5,2,2,3
+"236",41,"No","Travel_Rarely",447,"Research & Development",5,3,"Life Sciences",1,1814,2,"Male",85,4,2,"Healthcare Representative",2,"Single",6870,15530,3,"Y","No",12,3,1,80,0,11,3,1,3,2,1,2
+"237",44,"No","Travel_Rarely",1199,"Research & Development",4,2,"Life Sciences",1,1288,3,"Male",92,4,5,"Manager",1,"Divorced",19190,17477,1,"Y","No",14,3,4,80,2,26,4,2,25,9,14,13
+"238",48,"No","Travel_Frequently",117,"Research & Development",22,3,"Medical",1,1900,4,"Female",58,3,4,"Manager",4,"Divorced",17174,2437,3,"Y","No",11,3,2,80,1,24,3,3,22,17,4,7
+"239",27,"No","Travel_Rarely",486,"Research & Development",8,3,"Medical",1,1647,2,"Female",86,4,1,"Research Scientist",3,"Married",3517,22490,7,"Y","No",17,3,1,80,0,5,0,3,3,2,0,2
+"240",46,"No","Travel_Rarely",1125,"Sales",10,3,"Marketing",1,580,3,"Female",94,2,3,"Sales Executive",4,"Married",9071,11563,2,"Y","Yes",19,3,3,80,1,15,3,3,3,2,1,2
+"241",29,"No","Travel_Rarely",1329,"Research & Development",7,3,"Life Sciences",1,1260,3,"Male",82,3,2,"Healthcare Representative",4,"Divorced",6623,4204,1,"Y","Yes",11,3,2,80,2,6,2,3,6,0,1,0
+"242",32,"No","Travel_Rarely",267,"Research & Development",29,4,"Life Sciences",1,2010,3,"Female",49,2,1,"Laboratory Technician",2,"Single",2837,15919,1,"Y","No",13,3,3,80,0,6,3,3,6,2,4,1
+"243",33,"No","Non-Travel",775,"Research & Development",4,3,"Technical Degree",1,1771,4,"Male",90,3,2,"Research Scientist",2,"Divorced",3055,6194,5,"Y","No",15,3,4,80,2,11,2,2,9,8,1,7
+"244",44,"No","Travel_Rarely",528,"Human Resources",1,3,"Life Sciences",1,1683,3,"Female",44,3,1,"Human Resources",4,"Divorced",3195,4167,4,"Y","Yes",18,3,1,80,3,8,2,3,2,2,2,2
+"245",32,"No","Travel_Rarely",977,"Research & Development",2,3,"Medical",1,1671,4,"Male",45,3,2,"Research Scientist",2,"Divorced",5470,25518,0,"Y","No",13,3,3,80,2,10,4,2,9,5,1,6
+"246",25,"Yes","Travel_Rarely",383,"Sales",9,2,"Life Sciences",1,1439,1,"Male",68,2,1,"Sales Representative",1,"Married",4400,15182,3,"Y","No",12,3,1,80,0,6,2,3,3,2,2,2
+"247",31,"No","Travel_Rarely",140,"Research & Development",12,1,"Medical",1,246,3,"Female",95,3,1,"Research Scientist",4,"Married",3929,6984,8,"Y","Yes",23,4,3,80,1,7,0,3,4,2,0,2
+"248",46,"No","Travel_Rarely",563,"Sales",1,4,"Life Sciences",1,1602,4,"Male",56,4,4,"Manager",1,"Single",17567,3156,1,"Y","No",15,3,2,80,0,27,5,1,26,0,0,12
+"249",30,"No","Travel_Rarely",202,"Sales",2,1,"Technical Degree",1,508,3,"Male",72,3,1,"Sales Representative",2,"Married",2476,17434,1,"Y","No",18,3,1,80,1,1,3,3,1,0,0,0
+"250",46,"No","Travel_Rarely",644,"Research & Development",1,4,"Medical",1,288,4,"Male",97,3,3,"Healthcare Representative",1,"Divorced",9396,12368,7,"Y","No",16,3,3,80,1,17,3,3,4,2,0,3
+"251",35,"No","Travel_Rarely",670,"Research & Development",10,4,"Medical",1,1587,1,"Female",51,3,2,"Healthcare Representative",3,"Single",6142,4223,3,"Y","Yes",16,3,3,80,0,10,4,3,5,2,0,4
+"252",36,"No","Travel_Rarely",325,"Research & Development",10,4,"Technical Degree",1,1312,4,"Female",63,3,3,"Healthcare Representative",3,"Married",7094,5747,3,"Y","No",12,3,1,80,0,10,0,3,7,7,1,7
+"253",28,"Yes","Travel_Rarely",890,"Research & Development",2,4,"Medical",1,828,3,"Male",46,3,1,"Research Scientist",3,"Single",4382,16374,6,"Y","No",17,3,4,80,0,5,3,2,2,2,2,1
+"254",41,"No","Non-Travel",256,"Sales",10,2,"Medical",1,1329,3,"Male",40,1,2,"Sales Executive",2,"Single",6151,22074,1,"Y","No",13,3,1,80,0,19,4,3,19,2,11,9
+"255",34,"No","Travel_Frequently",653,"Research & Development",10,4,"Technical Degree",1,1597,4,"Male",92,2,2,"Healthcare Representative",3,"Married",5063,15332,1,"Y","No",14,3,2,80,1,8,3,2,8,2,7,7
+"256",46,"No","Travel_Rarely",406,"Sales",3,1,"Marketing",1,1124,1,"Male",52,3,4,"Manager",3,"Married",17465,15596,3,"Y","No",12,3,4,80,1,23,3,3,12,9,4,9
+"257",34,"No","Travel_Rarely",1397,"Research & Development",1,5,"Life Sciences",1,683,2,"Male",42,3,1,"Research Scientist",4,"Married",2691,7660,1,"Y","No",12,3,4,80,1,10,4,2,10,9,8,8
+"258",35,"No","Travel_Rarely",750,"Research & Development",28,3,"Life Sciences",1,1596,2,"Male",46,4,2,"Laboratory Technician",3,"Married",3407,25348,1,"Y","No",17,3,4,80,2,10,3,2,10,9,6,8
+"259",35,"No","Travel_Rarely",1258,"Research & Development",1,4,"Life Sciences",1,826,4,"Female",40,4,1,"Research Scientist",3,"Single",2506,13301,3,"Y","No",13,3,3,80,0,7,0,3,2,2,2,2
+"260",28,"No","Travel_Rarely",1117,"Research & Development",8,2,"Life Sciences",1,395,4,"Female",66,3,1,"Research Scientist",4,"Single",3310,4488,1,"Y","No",21,4,4,80,0,5,3,3,5,3,0,2
+"261",40,"No","Non-Travel",218,"Research & Development",8,1,"Medical",1,1468,4,"Male",55,2,3,"Research Director",2,"Divorced",13757,25178,2,"Y","No",11,3,3,80,1,16,5,3,9,8,4,8
+"262",33,"No","Non-Travel",530,"Sales",16,3,"Life Sciences",1,1681,3,"Female",36,3,2,"Sales Executive",4,"Divorced",5368,16130,1,"Y","Yes",25,4,3,80,1,7,2,3,6,5,1,2
+"263",31,"No","Travel_Rarely",311,"Research & Development",20,3,"Life Sciences",1,1881,2,"Male",89,3,2,"Laboratory Technician",3,"Divorced",4197,18624,1,"Y","No",11,3,1,80,1,10,2,3,10,8,0,2
+"264",35,"No","Travel_Rarely",682,"Sales",18,4,"Medical",1,1945,2,"Male",71,3,2,"Sales Executive",1,"Married",5561,15975,0,"Y","No",16,3,4,80,1,6,2,1,5,3,0,4
+"265",40,"No","Travel_Rarely",118,"Sales",14,2,"Life Sciences",1,1598,4,"Female",84,3,2,"Sales Executive",1,"Married",4639,11262,1,"Y","No",15,3,3,80,1,5,2,3,5,4,1,2
+"266",27,"Yes","Travel_Rarely",1420,"Sales",2,1,"Marketing",1,667,3,"Male",85,3,1,"Sales Representative",1,"Divorced",3041,16346,0,"Y","No",11,3,2,80,1,5,3,3,4,3,0,2
+"267",36,"No","Travel_Rarely",429,"Research & Development",2,4,"Life Sciences",1,1294,3,"Female",53,3,2,"Manufacturing Director",2,"Single",5410,2323,9,"Y","Yes",11,3,4,80,0,18,2,3,16,14,5,12
+"268",29,"Yes","Travel_Rarely",318,"Research & Development",8,4,"Other",1,454,2,"Male",77,1,1,"Laboratory Technician",1,"Married",2119,4759,1,"Y","Yes",11,3,4,80,0,7,4,2,7,7,0,7
+"269",40,"Yes","Non-Travel",1479,"Sales",24,3,"Life Sciences",1,986,2,"Female",100,4,4,"Sales Executive",2,"Single",13194,17071,4,"Y","Yes",16,3,4,80,0,22,2,2,1,0,0,0
+"270",37,"No","Travel_Rarely",671,"Research & Development",19,3,"Life Sciences",1,1631,3,"Male",85,3,2,"Manufacturing Director",3,"Married",5768,26493,3,"Y","No",17,3,1,80,3,9,2,2,4,3,0,2
+"271",38,"No","Travel_Rarely",1153,"Research & Development",6,2,"Other",1,1782,4,"Female",40,2,1,"Laboratory Technician",3,"Married",3702,16376,1,"Y","No",11,3,2,80,1,5,3,3,5,4,0,4
+"272",34,"No","Non-Travel",999,"Research & Development",26,1,"Technical Degree",1,1374,1,"Female",92,2,1,"Research Scientist",3,"Divorced",2029,15891,1,"Y","No",20,4,3,80,3,5,2,3,5,4,0,0
+"273",47,"No","Travel_Rarely",1482,"Research & Development",5,5,"Life Sciences",1,447,4,"Male",42,3,5,"Research Director",3,"Married",18300,16375,4,"Y","No",11,3,2,80,1,21,2,3,3,2,1,1
+"274",54,"No","Travel_Frequently",1050,"Research & Development",11,4,"Medical",1,1520,2,"Female",87,3,4,"Manager",4,"Divorced",16032,24456,3,"Y","No",20,4,1,80,1,26,2,3,14,9,1,12
+"275",39,"No","Travel_Rarely",412,"Research & Development",13,4,"Medical",1,1307,3,"Female",94,2,4,"Manager",2,"Divorced",17123,17334,6,"Y","Yes",13,3,4,80,2,21,4,3,19,9,15,2
+"276",31,"Yes","Travel_Rarely",1365,"Sales",13,4,"Medical",1,650,2,"Male",46,3,2,"Sales Executive",1,"Divorced",4233,11512,2,"Y","No",17,3,3,80,0,9,2,1,3,1,1,2
+"277",42,"No","Travel_Rarely",469,"Research & Development",2,2,"Medical",1,1109,4,"Male",35,3,4,"Manager",1,"Married",17665,14399,0,"Y","No",17,3,4,80,1,23,3,3,22,6,13,7
+"278",51,"No","Travel_Rarely",1469,"Research & Development",8,4,"Life Sciences",1,296,2,"Male",81,2,3,"Research Director",2,"Married",12490,15736,5,"Y","No",16,3,4,80,2,16,5,1,10,9,4,7
+"279",41,"Yes","Non-Travel",906,"Research & Development",5,2,"Life Sciences",1,1210,1,"Male",95,2,1,"Research Scientist",1,"Divorced",2107,20293,6,"Y","No",17,3,1,80,1,5,2,1,1,0,0,0
+"280",23,"No","Travel_Rarely",310,"Research & Development",10,1,"Medical",1,784,1,"Male",79,4,1,"Research Scientist",3,"Single",3505,19630,1,"Y","No",18,3,4,80,0,2,3,3,2,2,0,2
+"281",36,"No","Non-Travel",635,"Sales",10,4,"Medical",1,592,2,"Male",32,3,3,"Sales Executive",4,"Single",9980,15318,1,"Y","No",14,3,4,80,0,10,3,2,10,3,9,7
+"282",54,"No","Travel_Rarely",971,"Research & Development",1,3,"Medical",1,1422,4,"Female",54,3,4,"Research Director",4,"Single",17328,5652,6,"Y","No",19,3,4,80,0,29,3,2,20,7,12,7
+"283",29,"No","Travel_Rarely",986,"Research & Development",3,4,"Medical",1,564,2,"Male",93,2,3,"Research Director",3,"Married",11935,21526,1,"Y","No",18,3,3,80,0,10,2,3,10,2,0,7
+"284",30,"No","Travel_Rarely",305,"Research & Development",16,3,"Life Sciences",1,1763,3,"Male",58,4,2,"Healthcare Representative",3,"Married",5294,9128,3,"Y","No",16,3,3,80,1,10,3,3,7,0,1,7
+"285",32,"No","Travel_Rarely",1373,"Research & Development",5,4,"Life Sciences",1,1966,4,"Male",56,2,2,"Manufacturing Director",4,"Single",9679,10138,8,"Y","No",24,4,2,80,0,8,1,3,1,0,0,0
+"286",40,"No","Travel_Rarely",444,"Sales",2,2,"Marketing",1,1986,2,"Female",92,3,2,"Sales Executive",2,"Married",5677,4258,3,"Y","No",14,3,3,80,1,15,4,3,11,8,5,10
+"287",24,"Yes","Travel_Frequently",381,"Research & Development",9,3,"Medical",1,1494,2,"Male",89,3,1,"Laboratory Technician",1,"Single",3172,16998,2,"Y","Yes",11,3,3,80,0,4,2,2,0,0,0,0
+"288",31,"No","Travel_Rarely",688,"Sales",7,3,"Life Sciences",1,613,3,"Male",44,2,3,"Manager",4,"Divorced",11557,25291,9,"Y","No",21,4,3,80,1,10,3,2,5,4,0,1
+"289",37,"No","Travel_Rarely",124,"Research & Development",3,3,"Other",1,1062,4,"Female",35,3,2,"Healthcare Representative",2,"Single",4107,13848,3,"Y","No",15,3,1,80,0,8,3,2,4,3,0,1
+"290",29,"No","Travel_Rarely",665,"Research & Development",15,3,"Life Sciences",1,346,3,"Male",60,3,1,"Research Scientist",4,"Single",2340,22673,1,"Y","No",19,3,1,80,0,6,1,3,6,5,1,5
+"291",40,"No","Travel_Rarely",898,"Human Resources",6,2,"Medical",1,1550,3,"Male",38,3,4,"Manager",4,"Single",16437,17381,1,"Y","Yes",21,4,4,80,0,21,2,3,21,7,7,7
+"292",34,"No","Travel_Rarely",704,"Sales",28,3,"Marketing",1,2035,4,"Female",95,2,2,"Sales Executive",3,"Married",6712,8978,1,"Y","No",21,4,4,80,2,8,2,3,8,7,1,7
+"293",20,"No","Travel_Rarely",654,"Sales",21,3,"Marketing",1,1226,3,"Male",43,4,1,"Sales Representative",4,"Single",2678,5050,1,"Y","No",17,3,4,80,0,2,2,3,2,1,2,2
+"294",39,"No","Travel_Rarely",613,"Research & Development",6,1,"Medical",1,2062,4,"Male",42,2,3,"Healthcare Representative",1,"Married",9991,21457,4,"Y","No",15,3,1,80,1,9,5,3,7,7,1,7
+"295",40,"No","Travel_Rarely",1416,"Research & Development",2,2,"Medical",1,352,1,"Male",49,3,5,"Research Director",3,"Divorced",19436,5949,0,"Y","No",19,3,4,80,1,22,5,3,21,7,3,9
+"296",34,"No","Travel_Frequently",303,"Sales",2,4,"Marketing",1,216,3,"Female",75,3,1,"Sales Representative",3,"Married",2231,11314,6,"Y","No",18,3,4,80,1,6,3,3,4,3,1,2
+"297",45,"No","Travel_Rarely",1316,"Research & Development",29,3,"Medical",1,192,3,"Male",83,3,1,"Research Scientist",4,"Single",3452,9752,5,"Y","No",13,3,2,80,0,9,2,2,6,5,0,3
+"298",53,"No","Travel_Rarely",1395,"Research & Development",24,4,"Medical",1,1689,2,"Male",48,4,3,"Healthcare Representative",4,"Married",7005,3458,3,"Y","No",15,3,3,80,0,11,2,3,4,3,1,2
+"299",43,"No","Travel_Frequently",394,"Sales",26,2,"Life Sciences",1,158,3,"Male",92,3,4,"Manager",4,"Married",16959,19494,1,"Y","Yes",12,3,4,80,2,25,3,4,25,12,4,12
+"300",36,"No","Travel_Rarely",796,"Research & Development",12,5,"Medical",1,1073,4,"Female",51,2,3,"Manufacturing Director",4,"Single",8858,15669,0,"Y","No",11,3,2,80,0,15,2,2,14,8,7,8
+"301",42,"No","Travel_Rarely",635,"Sales",1,1,"Life Sciences",1,387,2,"Male",99,3,2,"Sales Executive",3,"Married",4907,24532,1,"Y","No",25,4,3,80,0,20,3,3,20,16,11,6
+"302",30,"No","Travel_Frequently",1012,"Research & Development",5,4,"Life Sciences",1,861,2,"Male",75,2,1,"Research Scientist",4,"Divorced",3761,2373,9,"Y","No",12,3,2,80,1,10,3,2,5,4,0,3
+"303",21,"Yes","Travel_Rarely",1334,"Research & Development",10,3,"Life Sciences",1,1079,3,"Female",36,2,1,"Laboratory Technician",1,"Single",1416,17258,1,"Y","No",13,3,1,80,0,1,6,2,1,0,1,0
+"304",44,"No","Travel_Rarely",921,"Research & Development",2,3,"Life Sciences",1,1703,3,"Female",96,4,3,"Healthcare Representative",4,"Married",7879,14810,1,"Y","Yes",19,3,2,80,1,9,2,3,8,7,6,7
+"305",32,"No","Travel_Frequently",1311,"Research & Development",7,3,"Life Sciences",1,359,2,"Male",100,4,1,"Laboratory Technician",2,"Married",2794,26062,1,"Y","No",20,4,3,80,0,5,3,1,5,1,0,3
+"306",35,"No","Non-Travel",1225,"Research & Development",2,4,"Life Sciences",1,771,4,"Female",61,3,2,"Healthcare Representative",1,"Divorced",5093,4761,2,"Y","No",11,3,1,80,1,16,2,4,1,0,0,0
+"307",35,"No","Travel_Rarely",1219,"Sales",18,3,"Medical",1,975,3,"Female",86,3,2,"Sales Executive",3,"Married",4601,6179,1,"Y","No",16,3,2,80,0,5,3,3,5,2,1,0
+"308",39,"No","Travel_Rarely",1498,"Sales",21,4,"Life Sciences",1,1390,1,"Male",44,2,2,"Sales Executive",4,"Married",6120,3567,3,"Y","Yes",12,3,4,80,2,8,2,4,5,4,1,4
+"309",35,"No","Travel_Rarely",1029,"Research & Development",16,3,"Life Sciences",1,1529,4,"Female",91,2,3,"Healthcare Representative",2,"Single",8606,21195,1,"Y","No",19,3,4,80,0,11,3,1,11,8,3,3
+"310",33,"No","Travel_Rarely",501,"Research & Development",15,2,"Medical",1,2009,2,"Female",95,3,2,"Healthcare Representative",4,"Married",4878,21653,0,"Y","Yes",13,3,1,80,1,10,6,3,9,7,8,1
+"311",37,"No","Travel_Frequently",1278,"Sales",1,4,"Medical",1,1700,3,"Male",31,1,2,"Sales Executive",4,"Divorced",9525,7677,1,"Y","No",14,3,3,80,2,6,2,2,6,3,1,3
+"312",31,"No","Travel_Rarely",192,"Research & Development",2,4,"Life Sciences",1,426,3,"Male",32,3,1,"Research Scientist",4,"Divorced",2695,7747,0,"Y","Yes",18,3,2,80,1,3,2,1,2,2,2,2
+"313",29,"No","Travel_Rarely",738,"Research & Development",9,5,"Other",1,455,2,"Male",30,2,1,"Laboratory Technician",4,"Single",3983,7621,0,"Y","No",17,3,3,80,0,4,2,3,3,2,2,2
+"314",32,"No","Non-Travel",953,"Research & Development",5,4,"Technical Degree",1,1764,2,"Male",65,3,1,"Research Scientist",2,"Single",2718,17674,2,"Y","No",14,3,2,80,0,12,3,3,7,7,0,7
+"315",27,"No","Travel_Rarely",1291,"Sales",11,3,"Medical",1,1364,3,"Female",98,4,1,"Sales Representative",4,"Married",2534,6527,8,"Y","No",14,3,2,80,1,5,4,3,1,0,0,0
+"316",29,"No","Travel_Rarely",1389,"Research & Development",21,4,"Life Sciences",1,20,2,"Female",51,4,3,"Manufacturing Director",1,"Divorced",9980,10195,1,"Y","No",11,3,3,80,1,10,1,3,10,9,8,8
+"317",58,"No","Travel_Rarely",1272,"Research & Development",5,3,"Technical Degree",1,940,3,"Female",37,2,3,"Healthcare Representative",2,"Divorced",10552,9255,2,"Y","Yes",13,3,4,80,1,24,3,3,6,0,0,4
+"318",48,"No","Travel_Rarely",715,"Research & Development",1,3,"Life Sciences",1,1263,4,"Male",76,2,5,"Research Director",4,"Single",18265,8733,6,"Y","No",12,3,3,80,0,25,3,4,1,0,0,0
+"319",35,"No","Travel_Rarely",1349,"Research & Development",7,2,"Life Sciences",1,1601,3,"Male",63,2,1,"Laboratory Technician",4,"Married",2690,7713,1,"Y","No",18,3,4,80,1,1,5,2,1,0,0,1
+"320",56,"No","Non-Travel",667,"Research & Development",1,4,"Life Sciences",1,2026,3,"Male",57,3,2,"Healthcare Representative",3,"Divorced",6306,26236,1,"Y","No",21,4,1,80,1,13,2,2,13,12,1,9
+"321",37,"No","Travel_Frequently",319,"Sales",4,4,"Marketing",1,311,1,"Male",41,3,1,"Sales Representative",4,"Divorced",2793,2539,4,"Y","No",17,3,3,80,1,13,2,3,9,8,5,8
+"322",34,"No","Travel_Rarely",937,"Sales",1,3,"Marketing",1,1950,1,"Male",32,3,3,"Sales Executive",4,"Single",9888,6770,1,"Y","No",21,4,1,80,0,14,3,2,14,8,2,1
+"323",44,"No","Non-Travel",111,"Research & Development",17,3,"Life Sciences",1,1206,4,"Male",74,1,1,"Research Scientist",3,"Single",2290,4279,2,"Y","No",13,3,4,80,0,6,3,3,0,0,0,0
+"324",28,"No","Non-Travel",280,"Human Resources",1,2,"Life Sciences",1,1858,3,"Male",43,3,1,"Human Resources",4,"Divorced",2706,10494,1,"Y","No",15,3,2,80,1,3,2,3,3,2,2,2
+"325",31,"No","Travel_Rarely",408,"Research & Development",9,4,"Life Sciences",1,493,3,"Male",42,2,1,"Research Scientist",2,"Single",2657,7551,0,"Y","Yes",16,3,4,80,0,3,5,3,2,2,2,2
+"326",37,"No","Travel_Rarely",589,"Sales",9,2,"Marketing",1,1787,2,"Male",46,2,2,"Sales Executive",2,"Married",4189,8800,1,"Y","No",14,3,1,80,2,5,2,3,5,2,0,3
+"327",53,"Yes","Travel_Rarely",607,"Research & Development",2,5,"Technical Degree",1,1572,3,"Female",78,2,3,"Manufacturing Director",4,"Married",10169,14618,0,"Y","No",16,3,2,80,1,34,4,3,33,7,1,9
+"328",40,"No","Non-Travel",1094,"Sales",28,3,"Other",1,615,3,"Male",58,1,3,"Sales Executive",1,"Divorced",10932,11373,3,"Y","No",15,3,3,80,1,20,2,3,1,0,0,1
+"329",45,"No","Travel_Rarely",194,"Research & Development",9,3,"Life Sciences",1,206,2,"Male",60,3,2,"Laboratory Technician",2,"Divorced",2348,10901,8,"Y","No",18,3,3,80,1,20,2,1,17,9,0,15
+"330",32,"No","Travel_Rarely",1018,"Research & Development",2,4,"Medical",1,439,1,"Female",74,4,2,"Research Scientist",4,"Single",5055,10557,7,"Y","No",16,3,3,80,0,10,0,2,7,7,0,7
+"331",37,"No","Travel_Rarely",783,"Research & Development",7,4,"Medical",1,1885,4,"Male",78,3,2,"Research Scientist",1,"Married",4284,13588,5,"Y","Yes",22,4,3,80,1,16,2,3,5,3,0,4
+"332",45,"No","Travel_Rarely",1234,"Sales",11,2,"Life Sciences",1,1045,4,"Female",90,3,4,"Manager",4,"Married",17650,5404,3,"Y","No",13,3,2,80,1,26,4,4,9,3,1,1
+"333",45,"No","Travel_Rarely",374,"Sales",20,3,"Life Sciences",1,2046,4,"Female",50,3,2,"Sales Executive",3,"Single",4850,23333,8,"Y","No",15,3,3,80,0,8,3,3,5,3,0,1
+"334",45,"No","Travel_Rarely",252,"Research & Development",1,3,"Other",1,336,3,"Male",70,4,5,"Manager",4,"Married",19202,15970,0,"Y","No",11,3,3,80,1,25,2,3,24,0,1,7
+"335",48,"No","Travel_Rarely",969,"Research & Development",2,2,"Technical Degree",1,1258,4,"Male",76,4,1,"Laboratory Technician",2,"Single",2559,16620,5,"Y","No",11,3,3,80,0,7,4,2,1,0,0,0
+"336",28,"No","Travel_Rarely",1181,"Research & Development",1,3,"Life Sciences",1,1799,3,"Male",82,3,1,"Research Scientist",4,"Married",2044,5531,1,"Y","No",11,3,3,80,1,5,6,4,5,3,0,3
+"337",32,"No","Non-Travel",300,"Research & Development",1,3,"Life Sciences",1,882,4,"Male",61,3,1,"Laboratory Technician",4,"Divorced",2314,9148,0,"Y","No",12,3,2,80,1,4,2,3,3,0,0,2
+"338",45,"No","Travel_Rarely",193,"Research & Development",6,4,"Other",1,101,4,"Male",52,3,3,"Research Director",1,"Married",13245,15067,4,"Y","Yes",14,3,2,80,0,17,3,4,0,0,0,0
+"339",29,"No","Travel_Frequently",410,"Research & Development",2,1,"Life Sciences",1,1513,4,"Female",97,3,1,"Laboratory Technician",2,"Married",3180,4668,0,"Y","No",13,3,3,80,3,4,3,3,3,2,0,2
+"340",41,"No","Travel_Rarely",509,"Research & Development",7,2,"Technical Degree",1,1085,2,"Female",43,4,1,"Research Scientist",3,"Married",3376,18863,1,"Y","No",13,3,3,80,0,10,3,3,10,6,0,8
+"341",36,"No","Non-Travel",1105,"Research & Development",24,4,"Life Sciences",1,419,2,"Female",47,3,2,"Laboratory Technician",2,"Married",5674,6927,7,"Y","No",15,3,3,80,1,11,3,3,9,8,0,8
+"342",50,"Yes","Travel_Rarely",410,"Sales",28,3,"Marketing",1,2055,4,"Male",39,2,3,"Sales Executive",1,"Divorced",10854,16586,4,"Y","Yes",13,3,2,80,1,20,3,3,3,2,2,0
+"343",47,"No","Travel_Rarely",1001,"Research & Development",4,3,"Life Sciences",1,1827,3,"Female",92,2,3,"Manufacturing Director",2,"Divorced",10333,19271,8,"Y","Yes",12,3,3,80,1,28,4,3,22,11,14,10
+"344",53,"No","Travel_Rarely",238,"Sales",1,1,"Medical",1,682,4,"Female",34,3,2,"Sales Executive",1,"Single",8381,7507,7,"Y","No",20,4,4,80,0,18,2,4,14,7,8,10
+"345",35,"No","Travel_Rarely",1370,"Research & Development",27,4,"Life Sciences",1,1728,4,"Male",49,3,2,"Manufacturing Director",3,"Married",6883,5151,2,"Y","No",16,3,2,80,1,17,3,3,7,7,0,7
+"346",49,"No","Travel_Rarely",271,"Research & Development",3,2,"Medical",1,1509,3,"Female",43,2,2,"Laboratory Technician",1,"Married",4789,23070,4,"Y","No",25,4,1,80,1,10,3,3,3,2,1,2
+"347",27,"Yes","Travel_Frequently",1337,"Human Resources",22,3,"Human Resources",1,1944,1,"Female",58,2,1,"Human Resources",2,"Married",2863,19555,1,"Y","No",12,3,1,80,0,1,2,3,1,0,0,0
+"348",34,"Yes","Travel_Frequently",296,"Sales",6,2,"Marketing",1,555,4,"Female",33,1,1,"Sales Representative",3,"Divorced",2351,12253,0,"Y","No",16,3,4,80,1,3,3,2,2,2,1,0
+"349",28,"Yes","Travel_Rarely",1434,"Research & Development",5,4,"Technical Degree",1,65,3,"Male",50,3,1,"Laboratory Technician",3,"Single",3441,11179,1,"Y","Yes",13,3,3,80,0,2,3,2,2,2,2,2
+"350",44,"No","Travel_Rarely",1112,"Human Resources",1,4,"Life Sciences",1,665,1,"Female",50,2,2,"Human Resources",3,"Single",5985,26894,4,"Y","No",11,3,2,80,0,10,1,4,2,2,0,2
+"351",41,"No","Travel_Rarely",918,"Sales",6,3,"Marketing",1,1708,4,"Male",35,3,3,"Sales Executive",3,"Single",9241,15869,1,"Y","No",12,3,2,80,0,10,3,3,10,8,8,7
+"352",25,"No","Travel_Rarely",882,"Research & Development",19,1,"Medical",1,1358,4,"Male",67,3,1,"Laboratory Technician",4,"Married",3669,9075,3,"Y","No",11,3,3,80,3,7,6,2,3,2,1,2
+"353",30,"No","Travel_Rarely",317,"Research & Development",2,3,"Life Sciences",1,548,3,"Female",43,1,2,"Manufacturing Director",4,"Single",6091,24793,2,"Y","No",20,4,3,80,0,11,2,3,5,4,0,2
+"354",34,"No","Travel_Rarely",735,"Sales",3,1,"Medical",1,1915,4,"Female",75,2,2,"Sales Executive",4,"Married",8103,16495,3,"Y","Yes",12,3,3,80,0,9,3,2,4,2,0,1
+"355",39,"No","Travel_Rarely",1462,"Sales",6,3,"Medical",1,1588,4,"Male",38,4,3,"Sales Executive",3,"Married",8237,4658,2,"Y","No",11,3,1,80,1,11,3,3,7,6,7,6
+"356",27,"No","Travel_Frequently",591,"Research & Development",2,3,"Medical",1,1648,4,"Male",87,3,1,"Research Scientist",4,"Single",2580,6297,2,"Y","No",13,3,3,80,0,6,0,2,4,2,1,2
+"357",29,"No","Travel_Rarely",1176,"Sales",3,2,"Medical",1,690,2,"Female",62,3,2,"Sales Executive",3,"Married",5561,3487,1,"Y","No",14,3,1,80,1,6,5,2,6,0,1,2
+"358",34,"No","Travel_Frequently",702,"Research & Development",16,4,"Life Sciences",1,838,3,"Female",100,2,1,"Research Scientist",4,"Single",2553,8306,1,"Y","No",16,3,3,80,0,6,3,3,5,2,1,3
+"359",36,"No","Travel_Rarely",1396,"Research & Development",5,2,"Life Sciences",1,304,4,"Male",62,3,2,"Laboratory Technician",2,"Single",5914,9945,8,"Y","No",16,3,4,80,0,16,3,4,13,11,3,7
+"360",43,"No","Travel_Rarely",244,"Human Resources",2,3,"Life Sciences",1,1778,2,"Male",97,3,1,"Human Resources",4,"Single",3539,5033,0,"Y","No",13,3,2,80,0,10,5,3,9,7,1,8
+"361",33,"No","Travel_Frequently",430,"Sales",7,3,"Medical",1,1477,4,"Male",54,3,2,"Sales Executive",1,"Married",4373,17456,0,"Y","No",14,3,1,80,2,5,2,3,4,3,0,3
+"362",56,"No","Travel_Frequently",1240,"Research & Development",9,3,"Medical",1,1071,1,"Female",63,3,1,"Research Scientist",3,"Married",2942,12154,2,"Y","No",19,3,2,80,1,18,4,3,5,4,0,3
+"363",42,"No","Travel_Frequently",748,"Research & Development",9,2,"Medical",1,1480,1,"Female",74,3,1,"Laboratory Technician",4,"Single",3673,16458,1,"Y","No",13,3,3,80,0,12,3,3,12,9,5,8
+"364",37,"No","Travel_Rarely",674,"Research & Development",13,3,"Medical",1,1543,1,"Male",47,3,2,"Research Scientist",4,"Married",4285,3031,1,"Y","No",17,3,1,80,0,10,2,3,10,8,3,7
+"365",23,"No","Travel_Rarely",571,"Research & Development",12,2,"Other",1,1982,4,"Male",78,3,1,"Laboratory Technician",4,"Single",2647,13672,1,"Y","No",13,3,3,80,0,5,6,4,5,2,1,4
+"366",25,"No","Travel_Rarely",583,"Sales",4,1,"Marketing",1,885,3,"Male",87,2,2,"Sales Executive",1,"Married",4256,18154,1,"Y","No",12,3,1,80,0,5,1,4,5,2,0,3
+"367",21,"No","Travel_Rarely",546,"Research & Development",5,1,"Medical",1,1623,3,"Male",97,3,1,"Research Scientist",4,"Single",3117,26009,1,"Y","No",18,3,3,80,0,3,2,3,2,2,2,2
+"368",27,"No","Travel_Rarely",1377,"Research & Development",11,1,"Life Sciences",1,1434,2,"Male",91,3,1,"Laboratory Technician",1,"Married",2099,7679,0,"Y","No",14,3,2,80,0,6,3,4,5,0,1,4
+"369",31,"No","Travel_Frequently",798,"Research & Development",7,2,"Life Sciences",1,442,3,"Female",48,2,3,"Manufacturing Director",3,"Married",8943,14034,1,"Y","No",24,4,1,80,1,10,2,3,10,9,8,9
+"370",45,"No","Travel_Rarely",192,"Research & Development",10,2,"Life Sciences",1,544,1,"Male",69,3,1,"Research Scientist",4,"Married",2654,9655,3,"Y","No",21,4,4,80,2,8,3,2,2,2,0,2
+"371",50,"No","Travel_Frequently",809,"Sales",12,3,"Marketing",1,174,3,"Female",77,3,3,"Sales Executive",4,"Single",9208,6645,4,"Y","No",11,3,4,80,0,16,3,3,2,2,2,1
+"372",56,"No","Travel_Frequently",906,"Sales",6,3,"Life Sciences",1,532,3,"Female",86,4,4,"Sales Executive",1,"Married",13212,18256,9,"Y","No",11,3,4,80,3,36,0,2,7,7,7,7
+"373",34,"No","Travel_Rarely",829,"Human Resources",3,2,"Human Resources",1,847,3,"Male",88,3,1,"Human Resources",4,"Married",3737,2243,0,"Y","No",19,3,3,80,1,4,1,1,3,2,0,2
+"374",37,"No","Travel_Rarely",161,"Research & Development",10,3,"Life Sciences",1,2017,3,"Female",42,4,3,"Research Director",4,"Married",13744,15471,1,"Y","Yes",25,4,1,80,1,16,2,3,16,11,6,8
+"375",33,"No","Travel_Frequently",970,"Sales",7,3,"Life Sciences",1,1114,4,"Female",30,3,2,"Sales Executive",2,"Married",4302,13401,0,"Y","No",17,3,3,80,1,4,3,3,3,2,0,2
+"376",33,"No","Travel_Rarely",461,"Research & Development",13,1,"Life Sciences",1,995,2,"Female",53,3,1,"Research Scientist",4,"Single",3452,17241,3,"Y","No",18,3,1,80,0,5,4,3,3,2,0,2
+"377",36,"No","Non-Travel",217,"Research & Development",18,4,"Life Sciences",1,1133,1,"Male",78,3,2,"Manufacturing Director",4,"Single",7779,23238,2,"Y","No",20,4,1,80,0,18,0,3,11,9,0,9
+"378",43,"No","Travel_Rarely",920,"Research & Development",3,3,"Life Sciences",1,1255,3,"Male",96,1,5,"Research Director",4,"Married",19740,18625,3,"Y","No",14,3,2,80,1,25,2,3,8,7,0,7
+"379",28,"No","Travel_Rarely",1217,"Research & Development",1,3,"Medical",1,1834,3,"Female",67,3,1,"Research Scientist",1,"Married",3591,12719,1,"Y","No",25,4,3,80,1,3,3,3,3,2,1,2
+"380",44,"Yes","Travel_Rarely",1097,"Research & Development",10,4,"Life Sciences",1,1200,3,"Male",96,3,1,"Research Scientist",3,"Single",2936,10826,1,"Y","Yes",11,3,3,80,0,6,4,3,6,4,0,2
+"381",34,"No","Travel_Rarely",131,"Sales",2,3,"Marketing",1,1281,3,"Female",86,3,2,"Sales Executive",1,"Single",4538,6039,0,"Y","Yes",12,3,4,80,0,4,3,3,3,2,0,2
+"382",18,"No","Non-Travel",1124,"Research & Development",1,3,"Life Sciences",1,1368,4,"Female",97,3,1,"Laboratory Technician",4,"Single",1611,19305,1,"Y","No",15,3,3,80,0,0,5,4,0,0,0,0
+"383",22,"No","Travel_Rarely",534,"Research & Development",15,3,"Medical",1,144,2,"Female",59,3,1,"Laboratory Technician",4,"Single",2871,23785,1,"Y","No",15,3,3,80,0,1,5,3,0,0,0,0
+"384",37,"No","Travel_Rarely",1017,"Research & Development",1,2,"Medical",1,340,3,"Female",83,2,1,"Research Scientist",1,"Married",3920,18697,2,"Y","No",14,3,1,80,1,17,2,2,3,1,0,2
+"385",40,"No","Travel_Rarely",750,"Research & Development",12,3,"Life Sciences",1,1829,2,"Female",47,3,2,"Healthcare Representative",1,"Divorced",4448,10748,2,"Y","No",12,3,2,80,1,15,3,3,7,4,7,7
+"386",18,"No","Travel_Rarely",812,"Sales",10,3,"Medical",1,411,4,"Female",69,2,1,"Sales Representative",3,"Single",1200,9724,1,"Y","No",12,3,1,80,0,0,2,3,0,0,0,0
+"387",40,"No","Travel_Rarely",658,"Sales",10,4,"Marketing",1,954,1,"Male",67,2,3,"Sales Executive",2,"Divorced",9705,20652,2,"Y","No",12,3,2,80,1,11,2,2,1,0,0,0
+"388",50,"No","Travel_Frequently",1421,"Research & Development",2,3,"Medical",1,1215,4,"Female",30,3,4,"Manager",1,"Married",17856,9490,2,"Y","No",22,4,3,80,1,32,3,3,2,2,2,2
+"389",54,"No","Travel_Rarely",376,"Research & Development",19,4,"Medical",1,799,4,"Female",95,3,2,"Manufacturing Director",1,"Divorced",5485,22670,9,"Y","Yes",11,3,2,80,2,9,4,3,5,3,1,4
+"390",28,"No","Travel_Rarely",866,"Sales",5,3,"Medical",1,1469,4,"Male",84,3,2,"Sales Executive",1,"Single",8463,23490,0,"Y","No",18,3,4,80,0,6,4,3,5,4,1,3
+"391",25,"No","Travel_Rarely",685,"Research & Development",1,3,"Life Sciences",1,350,1,"Female",62,3,2,"Manufacturing Director",3,"Married",4898,7505,0,"Y","No",12,3,4,80,2,5,3,3,4,2,1,2
+"392",27,"No","Travel_Rarely",1115,"Research & Development",3,4,"Medical",1,700,1,"Male",54,2,1,"Research Scientist",4,"Single",2045,15174,0,"Y","No",13,3,4,80,0,5,0,3,4,2,1,1
+"393",30,"No","Travel_Rarely",501,"Sales",27,5,"Marketing",1,747,3,"Male",99,3,2,"Sales Executive",4,"Divorced",5304,25275,7,"Y","No",23,4,4,80,1,10,2,2,8,7,7,7
+"394",32,"No","Travel_Rarely",801,"Sales",1,4,"Marketing",1,2016,3,"Female",48,3,3,"Sales Executive",4,"Married",10422,24032,1,"Y","No",19,3,3,80,2,14,3,3,14,10,5,7
+"395",26,"Yes","Travel_Frequently",342,"Research & Development",2,3,"Life Sciences",1,1053,1,"Male",57,3,1,"Research Scientist",1,"Married",2042,15346,6,"Y","Yes",14,3,2,80,1,6,2,3,3,2,1,2
+"396",40,"No","Travel_Rarely",329,"Research & Development",1,4,"Life Sciences",1,1361,2,"Male",88,3,1,"Laboratory Technician",2,"Married",2387,6762,3,"Y","No",22,4,3,80,1,7,3,3,4,2,0,3
+"397",45,"No","Non-Travel",805,"Research & Development",4,2,"Life Sciences",1,972,3,"Male",57,3,2,"Laboratory Technician",2,"Married",4447,23163,1,"Y","No",12,3,2,80,0,9,5,2,9,7,0,8
+"398",45,"No","Travel_Rarely",176,"Human Resources",4,3,"Life Sciences",1,1744,3,"Female",56,1,3,"Human Resources",3,"Married",9756,6595,4,"Y","No",21,4,3,80,2,9,2,4,5,0,0,3
+"399",48,"No","Travel_Rarely",492,"Sales",16,4,"Life Sciences",1,1557,3,"Female",96,3,2,"Sales Executive",3,"Divorced",6439,13693,8,"Y","No",14,3,3,80,1,18,2,3,8,7,7,7
+"400",31,"No","Travel_Rarely",196,"Sales",29,4,"Marketing",1,1784,1,"Female",91,2,2,"Sales Executive",4,"Married",5468,13402,1,"Y","No",14,3,1,80,2,13,3,3,12,7,5,7
+"401",30,"No","Travel_Rarely",201,"Research & Development",5,3,"Technical Degree",1,197,4,"Female",84,3,1,"Research Scientist",1,"Divorced",3204,10415,5,"Y","No",14,3,4,80,1,8,3,3,3,2,2,2
+"402",48,"No","Travel_Rarely",855,"Research & Development",4,3,"Life Sciences",1,1363,4,"Male",54,3,3,"Manufacturing Director",4,"Single",7898,18706,1,"Y","No",11,3,3,80,0,11,2,3,10,9,0,8
+"403",49,"No","Travel_Rarely",1495,"Research & Development",5,4,"Technical Degree",1,1473,1,"Male",96,3,2,"Healthcare Representative",3,"Married",6651,21534,2,"Y","No",14,3,2,80,1,20,0,2,3,2,1,2
+"404",25,"No","Travel_Rarely",141,"Sales",3,1,"Other",1,879,3,"Male",98,3,2,"Sales Executive",1,"Married",4194,14363,1,"Y","Yes",18,3,4,80,0,5,3,3,5,3,0,3
+"405",29,"No","Travel_Frequently",574,"Research & Development",20,1,"Medical",1,1852,4,"Male",40,3,1,"Laboratory Technician",4,"Married",3812,7003,1,"Y","No",13,3,2,80,0,11,3,4,11,8,3,10
+"406",27,"Yes","Travel_Rarely",135,"Research & Development",17,4,"Life Sciences",1,1405,4,"Female",51,3,1,"Research Scientist",3,"Single",2394,25681,1,"Y","Yes",13,3,4,80,0,8,2,3,8,2,7,7
+"407",38,"No","Travel_Rarely",688,"Research & Development",23,4,"Life Sciences",1,393,4,"Male",82,3,2,"Healthcare Representative",4,"Divorced",5745,18899,9,"Y","No",14,3,2,80,1,10,2,3,2,2,1,2
+"408",36,"No","Travel_Rarely",1223,"Research & Development",8,3,"Technical Degree",1,83,3,"Female",59,3,3,"Healthcare Representative",3,"Divorced",10096,8202,1,"Y","No",13,3,2,80,3,17,2,3,17,14,12,8
+"409",32,"No","Non-Travel",1200,"Research & Development",1,4,"Technical Degree",1,1574,4,"Male",62,3,2,"Research Scientist",1,"Married",4087,25174,4,"Y","No",14,3,2,80,1,9,3,2,6,5,1,2
+"410",29,"No","Travel_Frequently",995,"Research & Development",2,1,"Life Sciences",1,1590,1,"Male",87,3,2,"Healthcare Representative",4,"Divorced",8853,24483,1,"Y","No",19,3,4,80,1,6,0,4,6,4,1,3
+"411",34,"Yes","Travel_Rarely",1107,"Human Resources",9,4,"Technical Degree",1,1467,1,"Female",52,3,1,"Human Resources",3,"Married",2742,3072,1,"Y","No",15,3,4,80,0,2,0,3,2,2,2,2
+"412",33,"No","Non-Travel",722,"Sales",17,3,"Life Sciences",1,992,4,"Male",38,3,4,"Manager",3,"Single",17444,20489,1,"Y","No",11,3,4,80,0,10,2,3,10,8,6,0
+"413",41,"No","Travel_Rarely",930,"Sales",3,3,"Life Sciences",1,2037,3,"Male",57,2,2,"Sales Executive",2,"Divorced",8938,12227,2,"Y","No",11,3,3,80,1,14,5,3,5,4,0,4
+"414",51,"No","Travel_Rarely",942,"Research & Development",3,3,"Technical Degree",1,1786,1,"Female",53,3,3,"Manager",3,"Married",13116,22984,2,"Y","No",11,3,4,80,0,15,2,3,2,2,2,2
+"415",30,"No","Travel_Rarely",946,"Research & Development",2,3,"Medical",1,833,3,"Female",52,2,2,"Manufacturing Director",4,"Single",6877,20234,5,"Y","Yes",24,4,2,80,0,12,4,2,0,0,0,0
+"416",22,"Yes","Travel_Rarely",617,"Research & Development",3,1,"Life Sciences",1,926,2,"Female",34,3,2,"Manufacturing Director",3,"Married",4171,10022,0,"Y","Yes",19,3,1,80,1,4,3,4,3,2,0,2
+"417",34,"No","Travel_Frequently",669,"Research & Development",1,3,"Medical",1,1184,4,"Male",97,2,2,"Healthcare Representative",1,"Single",5343,25755,0,"Y","No",20,4,3,80,0,14,3,3,13,9,4,9
+"418",40,"No","Travel_Rarely",905,"Research & Development",19,2,"Medical",1,281,3,"Male",99,3,2,"Laboratory Technician",4,"Married",2741,16523,8,"Y","Yes",15,3,3,80,1,15,2,4,7,2,3,7
+"419",40,"No","Travel_Rarely",369,"Research & Development",8,2,"Life Sciences",1,1724,2,"Female",92,3,2,"Manufacturing Director",1,"Married",6516,5041,2,"Y","Yes",16,3,2,80,1,18,3,3,1,0,0,0
+"420",41,"No","Travel_Rarely",645,"Sales",1,3,"Marketing",1,534,2,"Male",49,4,3,"Sales Executive",1,"Married",8392,19566,1,"Y","No",16,3,3,80,1,10,2,3,10,7,0,7
+"421",32,"No","Travel_Frequently",1318,"Sales",10,4,"Marketing",1,1853,4,"Male",79,3,2,"Sales Executive",4,"Single",4648,26075,8,"Y","No",13,3,3,80,0,4,2,4,0,0,0,0
+"422",38,"No","Travel_Rarely",833,"Research & Development",18,3,"Medical",1,1766,2,"Male",60,1,2,"Healthcare Representative",4,"Married",5811,24539,3,"Y","Yes",16,3,3,80,1,15,2,3,1,0,1,0
+"423",24,"No","Travel_Rarely",506,"Research & Development",29,1,"Medical",1,1725,2,"Male",91,3,1,"Laboratory Technician",1,"Divorced",3907,3622,1,"Y","No",13,3,2,80,3,6,2,4,6,2,1,2
+"424",30,"No","Travel_Rarely",1358,"Sales",16,1,"Life Sciences",1,1479,4,"Male",96,3,2,"Sales Executive",3,"Married",5301,2939,8,"Y","No",15,3,3,80,2,4,2,2,2,1,2,2
+"425",33,"No","Non-Travel",750,"Sales",22,2,"Marketing",1,160,3,"Male",95,3,2,"Sales Executive",2,"Married",6146,15480,0,"Y","No",13,3,1,80,1,8,2,4,7,7,0,7
+"426",56,"No","Travel_Rarely",1443,"Sales",11,5,"Marketing",1,1935,4,"Female",89,2,2,"Sales Executive",1,"Married",5380,20328,4,"Y","No",16,3,3,80,1,6,3,3,0,0,0,0
+"427",52,"No","Non-Travel",585,"Sales",29,4,"Life Sciences",1,2019,1,"Male",40,3,1,"Sales Representative",4,"Divorced",3482,19788,2,"Y","No",15,3,2,80,2,16,3,2,9,8,0,0
+"428",35,"No","Travel_Rarely",144,"Research & Development",22,3,"Life Sciences",1,577,4,"Male",46,1,1,"Laboratory Technician",3,"Single",4230,19225,0,"Y","No",15,3,3,80,0,6,2,3,5,4,4,3
+"429",34,"No","Travel_Frequently",560,"Research & Development",1,4,"Other",1,1431,4,"Male",91,3,1,"Research Scientist",1,"Divorced",2996,20284,5,"Y","No",14,3,3,80,2,10,2,3,4,3,1,3
+"430",28,"No","Non-Travel",1476,"Research & Development",1,3,"Life Sciences",1,1315,3,"Female",55,1,2,"Laboratory Technician",4,"Married",6674,16392,0,"Y","No",11,3,1,80,3,10,6,3,9,8,7,5
+"431",35,"Yes","Travel_Rarely",763,"Sales",15,2,"Medical",1,1645,1,"Male",59,1,2,"Sales Executive",4,"Divorced",5440,22098,6,"Y","Yes",14,3,4,80,2,7,2,2,2,2,2,2
+"432",30,"No","Travel_Frequently",721,"Research & Development",1,2,"Medical",1,57,3,"Female",58,3,2,"Laboratory Technician",4,"Single",4011,10781,1,"Y","No",23,4,4,80,0,12,2,3,12,8,3,7
+"433",45,"No","Travel_Rarely",561,"Sales",2,3,"Other",1,606,4,"Male",61,3,2,"Sales Executive",2,"Married",4805,16177,0,"Y","No",19,3,2,80,1,9,3,4,8,7,3,7
+"434",25,"No","Travel_Rarely",959,"Sales",28,3,"Life Sciences",1,183,1,"Male",41,2,2,"Sales Executive",3,"Married",8639,24835,2,"Y","No",18,3,4,80,0,6,3,3,2,2,2,2
+"435",40,"No","Travel_Rarely",1300,"Research & Development",24,2,"Technical Degree",1,335,1,"Male",62,3,2,"Research Scientist",4,"Divorced",3319,24447,1,"Y","No",17,3,1,80,2,9,3,3,9,8,4,7
+"436",48,"No","Travel_Rarely",1236,"Research & Development",1,4,"Life Sciences",1,664,4,"Female",40,2,4,"Manager",1,"Married",15402,17997,7,"Y","No",11,3,1,80,1,21,3,1,3,2,0,2
+"437",53,"No","Travel_Rarely",102,"Research & Development",23,4,"Life Sciences",1,901,4,"Female",72,3,4,"Research Director",4,"Single",14275,20206,6,"Y","No",18,3,3,80,0,33,0,3,12,9,3,8
+"438",42,"No","Travel_Rarely",622,"Research & Development",2,4,"Life Sciences",1,659,3,"Female",81,3,2,"Healthcare Representative",4,"Married",4089,5718,1,"Y","No",13,3,2,80,2,10,4,3,10,2,2,2
+"439",29,"No","Travel_Rarely",469,"Sales",10,3,"Medical",1,1650,3,"Male",42,2,2,"Sales Executive",3,"Single",5869,23413,9,"Y","No",11,3,3,80,0,8,2,3,5,2,1,4
+"440",37,"No","Travel_Rarely",1192,"Research & Development",5,2,"Medical",1,460,4,"Male",61,3,2,"Manufacturing Director",4,"Divorced",6347,23177,7,"Y","No",16,3,3,80,2,8,2,2,6,2,0,4
+"441",35,"No","Travel_Rarely",607,"Research & Development",9,3,"Life Sciences",1,880,4,"Female",66,2,3,"Manufacturing Director",3,"Married",10685,23457,1,"Y","Yes",20,4,2,80,1,17,2,3,17,14,5,15
+"442",57,"No","Travel_Rarely",210,"Sales",29,3,"Marketing",1,568,1,"Male",56,2,4,"Manager",4,"Divorced",14118,22102,3,"Y","No",12,3,3,80,1,32,3,2,1,0,0,0
+"443",27,"No","Non-Travel",691,"Research & Development",9,3,"Medical",1,218,4,"Male",57,3,1,"Research Scientist",2,"Divorced",2024,5970,6,"Y","No",18,3,4,80,1,6,1,1,2,2,2,2
+"444",29,"No","Travel_Frequently",442,"Sales",2,2,"Life Sciences",1,388,2,"Male",44,3,2,"Sales Executive",4,"Single",4554,20260,1,"Y","No",18,3,1,80,0,10,3,2,10,7,0,9
+"445",46,"No","Travel_Rarely",168,"Sales",4,2,"Marketing",1,1280,4,"Female",33,2,5,"Manager",2,"Married",18789,9946,2,"Y","No",14,3,3,80,1,26,2,3,11,4,0,8
+"446",45,"No","Travel_Frequently",1297,"Research & Development",1,4,"Medical",1,1922,2,"Male",44,3,2,"Healthcare Representative",3,"Single",5399,14511,4,"Y","No",12,3,3,80,0,12,3,3,4,2,0,3
+"447",46,"No","Travel_Rarely",228,"Sales",3,3,"Life Sciences",1,1527,3,"Female",51,3,4,"Manager",2,"Married",16606,11380,8,"Y","No",12,3,4,80,1,23,2,4,13,12,5,1
+"448",29,"No","Non-Travel",1496,"Research & Development",1,1,"Technical Degree",1,208,4,"Male",41,3,2,"Manufacturing Director",3,"Married",4319,26283,1,"Y","No",13,3,1,80,1,10,1,3,10,7,0,9
+"449",28,"No","Travel_Rarely",857,"Research & Development",10,3,"Other",1,1097,3,"Female",59,3,2,"Research Scientist",3,"Single",3660,7909,3,"Y","No",13,3,4,80,0,10,4,4,8,7,1,7
+"450",32,"No","Non-Travel",1109,"Research & Development",29,4,"Medical",1,1046,4,"Female",69,3,1,"Laboratory Technician",3,"Single",4025,11135,9,"Y","No",12,3,2,80,0,10,2,3,8,7,7,7
+"451",38,"No","Travel_Rarely",770,"Sales",10,4,"Marketing",1,1119,3,"Male",73,2,3,"Sales Executive",3,"Divorced",8740,5569,0,"Y","Yes",14,3,2,80,2,9,2,3,8,7,2,7
+"452",32,"No","Travel_Frequently",430,"Research & Development",24,4,"Life Sciences",1,772,1,"Male",80,3,2,"Laboratory Technician",4,"Married",5309,21146,1,"Y","No",15,3,4,80,2,10,2,3,10,8,4,7
+"453",28,"Yes","Travel_Rarely",1485,"Research & Development",12,1,"Life Sciences",1,1175,3,"Female",79,3,1,"Laboratory Technician",4,"Married",2515,22955,1,"Y","Yes",11,3,4,80,0,1,4,2,1,1,0,0
+"454",41,"No","Travel_Rarely",314,"Human Resources",1,3,"Human Resources",1,734,4,"Male",59,2,5,"Manager",3,"Married",19189,19562,1,"Y","No",12,3,2,80,1,22,3,3,22,7,2,10
+"455",30,"No","Travel_Rarely",634,"Research & Development",17,4,"Medical",1,1321,2,"Female",95,3,3,"Manager",1,"Married",11916,25927,1,"Y","Yes",23,4,4,80,2,9,2,3,9,1,0,8
+"456",35,"No","Non-Travel",1212,"Sales",8,2,"Marketing",1,1243,3,"Female",78,2,3,"Sales Executive",4,"Married",10377,13755,4,"Y","Yes",11,3,2,80,1,16,6,2,13,2,4,12
+"457",39,"No","Travel_Frequently",672,"Research & Development",7,2,"Medical",1,444,3,"Male",54,2,5,"Manager",4,"Married",19272,21141,1,"Y","No",15,3,1,80,1,21,2,3,21,9,13,3
+"458",46,"No","Travel_Rarely",566,"Research & Development",7,2,"Medical",1,1007,4,"Male",75,3,3,"Manufacturing Director",3,"Divorced",10845,24208,6,"Y","No",13,3,2,80,1,13,3,3,8,7,0,7
+"459",37,"No","Travel_Rarely",342,"Sales",16,4,"Marketing",1,868,4,"Male",66,2,2,"Sales Executive",3,"Divorced",6334,24558,4,"Y","No",19,3,4,80,2,9,2,3,1,0,0,0
+"460",34,"No","Travel_Rarely",810,"Sales",8,2,"Technical Degree",1,1823,2,"Male",92,4,2,"Sales Executive",3,"Married",6799,22128,1,"Y","No",21,4,3,80,2,10,5,3,10,8,4,8
